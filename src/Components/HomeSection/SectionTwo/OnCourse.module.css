@@ -1,0 +1,63 @@
+.main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.OnSection {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+
+.flexSection {
+  margin-top: 5rem;
+}
+
+.flexSection h1 {
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 100px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.flexSection p {
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  width: 68%;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.flexSection button {
+  margin-top: 2rem;
+  width: 33%;
+  padding: 1rem 1rem;
+  background-color: #000;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid lightblue;
+  transition: 0.3s ease-out;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.flexSection button:hover {
+  border: 1px solid rgb(91, 113, 121);
+  background-color: rgb(187, 218, 228);
+  color: #000;
+  opacity: 0.9;
+}
+
+.OnImg {
+  width: 100%;
+}
+
+.OnImg img {
+  width: 100%;
+}

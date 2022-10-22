@@ -1,0 +1,67 @@
+.main {
+  width: 100%;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  gap: 9rem;
+  margin-top: 10rem;
+}
+
+.OffImg {
+  /* width: 100%; */
+  margin: 0 auto;
+}
+
+.OffImg img {
+  width: 115%;
+  margin: 0 auto;
+}
+
+.OffSect {
+  margin-top: 5rem;
+}
+
+.OffSect h1 {
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 100px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.OffSect p {
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.OffSect button {
+  margin-top: 2rem;
+  width: 60%;
+  padding: 1rem 1rem;
+  background-color: #000;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid lightblue;
+  transition: 0.3s ease-out;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.OffSect button:hover {
+  border: 1px solid rgb(91, 113, 121);
+  background-color: rgb(187, 218, 228);
+  color: #000;
+  opacity: 0.9;
+}

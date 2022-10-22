@@ -1,0 +1,29 @@
+.main {
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.footer {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.footer span {
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.footer .line {
+  width: 60px;
+  height: 2px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: lightblue;
+  margin-top: 1rem;
+}

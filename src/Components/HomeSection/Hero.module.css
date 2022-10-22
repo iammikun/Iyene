@@ -1,0 +1,45 @@
+.main {
+  width: 100%;
+  background-image: url("../../Asset/Image/hero.JPG");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 82vh;
+  background-attachment: fixed;
+  background-color: #d5d1d1;
+  background-blend-mode: multiply;
+}
+
+.heroContainer {
+  padding-top: 25rem;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heroContainer h1 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.heroContainer button {
+  margin-top: 2rem;
+  width: 13%;
+  padding: 1rem 1rem;
+  background-color: #000;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid lightblue;
+  transition: 0.3s ease-out;
+  font-weight: bold;
+}
+
+.heroContainer button:hover {
+  /* opacity: 0.9; */
+  border: 1px solid rgb(91, 113, 121);
+  background-color: transparent;
+}
