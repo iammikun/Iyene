@@ -23,6 +23,9 @@ const Nav = () => {
           <Link to="offcourse">
             <li>Off Course</li>
           </Link>
+          <Link to="contact">
+            <li>Contact Us</li>
+          </Link>
         </nav>
       </div>
     </div>

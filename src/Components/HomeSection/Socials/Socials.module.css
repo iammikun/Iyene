@@ -34,11 +34,11 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-top: 4rem;
+  margin-top: 4.5rem;
 }
 
 .singleCol a {
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   opacity: 0.7;
   color: lightblue;
   transition: all 0.3s ease-out;

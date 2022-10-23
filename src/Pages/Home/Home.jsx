@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../Components/Footer/Footer.jsx";
 import Hero from "../../Components/HomeSection/Hero.jsx";
 import Review from "../../Components/HomeSection/Review/Review.jsx";
 import Offcourse from "../../Components/HomeSection/SectionThree/OffCourse";
@@ -16,7 +15,6 @@ const Home = () => {
         <Offcourse />
         <Review />
         <Socials />
-        <Footer />
       </div>
     </div>
   );

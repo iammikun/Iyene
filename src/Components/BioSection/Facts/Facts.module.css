@@ -1,0 +1,53 @@
+.main {
+  width: 100%;
+}
+
+.factsContainer {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.factsContainer h2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 2.2rem;
+  letter-spacing: 3px;
+}
+.line {
+  width: 100px;
+  height: 2px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: lightblue;
+  margin-top: 1rem;
+}
+
+.highlightedFacts {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-top: 5rem;
+  align-items: center;
+}
+
+.factsImage {
+  width: 50%;
+}
+
+.factsImage img {
+  width: 100%;
+}
+
+.highlightedFacts li {
+  color: #fff;
+  margin-top: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  line-height: 2rem;
+}
