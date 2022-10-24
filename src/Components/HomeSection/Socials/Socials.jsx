@@ -15,7 +15,7 @@ const Socials = () => {
         <div className={classes.line}></div>
         <div className={classes.singleCol}>
           <a
-            href="/"
+            href="https://www.youtube.com/channel/UCEIX-mt9scS--lFOGHTRqIw"
             target="_blank"
             rel="noopener noreferrer"
             className={classes.youtube}

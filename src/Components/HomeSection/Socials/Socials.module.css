@@ -34,11 +34,11 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-top: 4.5rem;
+  margin-top: 4.8rem;
 }
 
 .singleCol a {
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   opacity: 0.7;
   color: lightblue;
   transition: all 0.3s ease-out;
@@ -47,16 +47,17 @@
 .singleCol .youtube:hover {
   /* opacity: 0.5; */
   box-shadow: -4px 9px 65px -12px rgba(217, 19, 12, 0.75);
-  color: rgb(216, 35, 35);
+  color: #ff0000;
 }
 .singleCol .instagram:hover {
   opacity: 0.5;
   box-shadow: -4px 9px 65px -12px rgba(0, 0, 0, 0.75);
+  color: rgb(138, 58, 185);
 }
 
 .singleCol .twitter:hover {
   box-shadow: -4px 9px 65px -12px rgba(17, 132, 194, 0.75);
-  color: rgb(89, 165, 252);
+  color: #1da1f2;
 }
 
 .singleCol .github:hover {

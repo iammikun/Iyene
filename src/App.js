@@ -6,6 +6,7 @@ import OnCourse from '../src/Pages/On Course/OnCourse';
 import Bio from '../src/Pages/Bio/Bio';
 import Home from '../src/Pages/Home/Home';
 import Footer from "../src/Components/Footer/Footer";
+import Contact from "../src/Pages/Contact/Contact";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="bio" element={<Bio />} />
         <Route path="offcourse" element={<OffCourse />} />
         <Route path="oncourse" element={<OnCourse />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>
