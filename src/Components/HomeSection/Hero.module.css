@@ -8,10 +8,11 @@
   background-attachment: fixed;
   background-color: #d5d1d1;
   background-blend-mode: multiply;
+  text-align: center;
 }
 
 .heroContainer {
-  padding-top: 25rem;
+  padding-top: 21rem;
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -24,7 +25,7 @@
 }
 
 .heroContainer button {
-  margin-top: 2rem;
+  margin-top: 2.3rem;
   width: 13%;
   padding: 1rem 1rem;
   background-color: #000;
@@ -36,10 +37,21 @@
   border: 1px solid lightblue;
   transition: 0.3s ease-out;
   font-weight: bold;
+  margin-bottom: 3rem;
 }
 
 .heroContainer button:hover {
   /* opacity: 0.9; */
   border: 1px solid rgb(91, 113, 121);
   background-color: transparent;
+}
+
+.main a {
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  transition: 0.3s ease-out;
+}
+
+.main a:hover {
+  color: lightblue;
 }

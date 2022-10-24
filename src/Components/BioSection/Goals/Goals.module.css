@@ -1,24 +1,26 @@
 .main {
-  width: 100%;
-  margin-top: 10rem;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.reviewContainer h1 {
+.goalsContainer h2 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  font-size: 2.2rem;
+  letter-spacing: 3px;
 }
 
-.reviewContainer p {
+.goalsContainer ul {
+  align-items: center;
+}
+
+.goalsContainer li {
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  margin-top: 1rem;
   font-family: "Noto Sans", sans-serif;
-  color: #fff;
   font-size: 1rem;
   letter-spacing: 1.5px;
   line-height: 2rem;
-  width: 70%;
-  margin: 0 auto;
-  margin-top: 5rem;
-  text-align: center;
 }

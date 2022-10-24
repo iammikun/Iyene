@@ -11,6 +11,7 @@ const Hero = () => {
           <button>Read More</button>
         </Link>
       </div>
+      <Link to="">Watch Swing Videos</Link>
     </div>
   );
 };

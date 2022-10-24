@@ -5,8 +5,7 @@ const BioHero = () => {
   return (
     <div className={classes.main}>
       <div className={classes.bioHeroContainer}>
-        <p>BIO</p>
-        <h4>IYENE BIOGRAPHY</h4>
+        <p>IYENE'S PROFILE</p>
       </div>
     </div>
   );

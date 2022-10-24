@@ -1,6 +1,6 @@
 .main {
   width: 100%;
-  margin-top: 7rem;
+  margin-top: 15rem;
   margin-bottom: 3rem;
 }
 
@@ -44,10 +44,10 @@
   transition: all 0.3s ease-out;
 }
 
-.singleCol .facebook:hover {
+.singleCol .youtube:hover {
   /* opacity: 0.5; */
-  box-shadow: -4px 9px 65px -12px rgba(45, 100, 189, 0.75);
-  color: rgb(52, 143, 247);
+  box-shadow: -4px 9px 65px -12px rgba(217, 19, 12, 0.75);
+  color: rgb(216, 35, 35);
 }
 .singleCol .instagram:hover {
   opacity: 0.5;

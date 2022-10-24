@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
   faTwitter,
-  faFacebook,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Socials = () => {
@@ -18,12 +18,12 @@ const Socials = () => {
             href="/"
             target="_blank"
             rel="noopener noreferrer"
-            className={classes.facebook}
+            className={classes.youtube}
           >
-            <FontAwesomeIcon icon={faFacebook} />
+            <FontAwesomeIcon icon={faYoutube} />
           </a>
           <a
-            href="https://instagram.com/elrae.tech?igshid=YmMyMTA2M2Y="
+            href="https://www.instagram.com/iyene_essien/"
             target="_blank"
             rel="noopener noreferrer"
             className={classes.instagram}
@@ -31,7 +31,7 @@ const Socials = () => {
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a
-            href="https://twitter.com/Elrae_tech?t=aX3LNNHwtm9iPbMK2qewiw&s=09"
+            href="https://twitter.com/iyenee?lang=en"
             target="_blank"
             rel="noopener noreferrer"
             className={classes.twitter}
