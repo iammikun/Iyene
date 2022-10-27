@@ -1,9 +1,13 @@
 .main {
   width: 90%;
   margin: 0 auto;
+  margin-top: 10rem;
 }
 
 .serviceContainer {
+  /* margin-top: 5rem; */
+  width: 90%;
+  margin: 0 auto;
   margin-top: 5rem;
 }
 
@@ -16,13 +20,12 @@
 }
 
 .serviceContainer p {
-  width: 100%;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   line-height: 2rem;
   letter-spacing: 2px;
-  width: 80%;
-  margin-bottom: 3rem;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .serviceContainer a {
@@ -36,4 +39,14 @@
 
 .serviceContainer a:hover {
   color: #fff;
+  transform: translateY(-10px);
+}
+
+.serviceImg {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.serviceImg img {
+  width: 100%;
 }

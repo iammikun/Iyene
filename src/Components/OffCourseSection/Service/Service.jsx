@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Service.module.css";
+import courseOne from "../../../Asset/Image/courseOne.jpg";
 
 const Service = () => {
   return (
     <div className={classes.main}>
+      <div className={classes.serviceImg}>
+        <img src={courseOne} alt="" />
+      </div>
       <div className={classes.serviceContainer}>
         <p>
           As part of Iyene’s passion and effort in giving back to the society,
@@ -22,7 +26,7 @@ const Service = () => {
           the golf community to support transformational programs that
           holistically enhance the families we serve » through golf.
         </p>
-        <Link to="https://golfforeafrica.org">See More</Link>
+        <a href="https://golfforeafrica.org">SEE MORE</a>
       </div>
     </div>
   );

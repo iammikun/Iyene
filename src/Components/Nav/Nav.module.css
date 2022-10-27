@@ -1,6 +1,6 @@
 .main {
   width: 100%;
-  backdrop-filter: blur(60px);
+  backdrop-filter: blur(10px);
   border-top: 0.1px solid lightblue;
 }
 
@@ -79,4 +79,8 @@
 
 .onCourse:hover .hover {
   opacity: 1;
+  background: #000;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  width: 40%;
 }
