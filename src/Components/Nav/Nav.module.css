@@ -33,6 +33,7 @@
   align-items: center;
   list-style: none;
   gap: 2.5rem;
+  position: relative;
 }
 
 .links a {
@@ -59,5 +60,23 @@
 }
 
 .links a:hover {
-  opacity: 0.7;
+  /* opacity: 0.7; */
+}
+
+.hover {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 1.8rem 0.3rem;
+  line-height: 1.8rem;
+  width: 45%;
+  top: 100%;
+  border-bottom: none;
+  text-transform: capitalize;
+  border-radius: 0.7rem;
+  opacity: 0;
+}
+
+.onCourse:hover .hover {
+  opacity: 1;
 }

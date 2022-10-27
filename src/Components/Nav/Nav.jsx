@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Nav.module.css";
 import logoDark from "../../Asset/Image/logoDark.jpeg";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faArrowDowwn } from "@fortawesome/free-brands-svg-icons";
 
 const Nav = () => {
   return (
@@ -11,14 +13,16 @@ const Nav = () => {
           <img src={logoDark} alt="" />
         </Link>
         <nav className={classes.links}>
-          <Link to="/">
-            <li>Home</li>
-          </Link>
           <Link to="bio">
             <li>Bio</li>
           </Link>
-          <Link to="oncourse">
+          <Link className={classes.onCourse} to="oncourse">
             <li>On Course</li>
+            <div className={classes.hover}>
+              <Link to="gallery">gallery</Link>
+              <Link to="swing">Swing videos</Link>
+              <Link to="schedule">Schedule</Link>
+            </div>
           </Link>
           <Link to="offcourse">
             <li>Off Course</li>

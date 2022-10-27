@@ -15,7 +15,7 @@ const OnCourse = () => {
             passion that makes her stand out from the  crowd.
           </p>
           <Link to="oncourse">
-            <button>MORE</button>
+            <button>SEE MORE</button>
           </Link>
         </div>
         <div className={classes.OnImg}>

@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../../Components/HomeSection/Hero.jsx";
-import Review from "../../Components/HomeSection/Review/Review.jsx";
+import ReviewTxt from "../../Components/HomeSection/Review/ReviewTxt.jsx";
 import Offcourse from "../../Components/HomeSection/SectionThree/OffCourse";
 import OnCourse from "../../Components/HomeSection/SectionTwo/OnCourse.jsx";
 import Socials from "../../Components/HomeSection/Socials/Socials.jsx";
@@ -13,7 +13,7 @@ const Home = () => {
         <Hero />
         <OnCourse />
         <Offcourse />
-        <Review />
+        <ReviewTxt />
         <Socials />
       </div>
     </div>

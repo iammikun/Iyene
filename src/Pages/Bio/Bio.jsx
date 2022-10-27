@@ -4,16 +4,14 @@ import BioText from "../../Components/BioSection/BioText/BioText";
 import Facts from "../../Components/BioSection/Facts/Facts";
 import classes from "./Bio.module.css";
 import Socials from "../../Components/HomeSection/Socials/Socials";
-import Goals from "../../Components/BioSection/Goals/Goals";
 
 const Bio = () => {
   return (
     <div className={classes.main}>
       <div className={classes.container}>
         <BioHero />
-        <BioText />
         <Facts />
-        <Goals />
+        <BioText />
         <Socials />
       </div>
     </div>

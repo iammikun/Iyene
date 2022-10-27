@@ -7,6 +7,7 @@ import Bio from '../src/Pages/Bio/Bio';
 import Home from '../src/Pages/Home/Home';
 import Footer from "../src/Components/Footer/Footer";
 import Contact from "../src/Pages/Contact/Contact";
+import Swing from "../src/Pages/Swing/Swing";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="offcourse" element={<OffCourse />} />
         <Route path="oncourse" element={<OnCourse />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="swing" element={<Swing />} />
       </Routes>
       <Footer />
     </div>

@@ -18,7 +18,7 @@ const OffCourse = () => {
             world, one day at a time...
           </p>
           <Link to="offcourse">
-            <button>LEARN MORE</button>
+            <button>READ MORE</button>
           </Link>
         </div>
       </div>

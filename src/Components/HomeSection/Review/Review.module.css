@@ -3,13 +3,28 @@
   margin-top: 10rem;
 }
 
-.reviewContainer h1 {
+.txtContent h2 {
   color: #fff;
+  text-align: center;
+  font-size: 2rem;
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  letter-spacing: 1px;
+  line-height: 1rem;
 }
 
-.reviewContainer p {
+.txtContent .line {
+  width: 100px;
+  height: 2px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: lightblue;
+  margin-top: 2rem;
+}
+
+.legend {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-family: "Noto Sans", sans-serif;
@@ -17,8 +32,15 @@
   font-size: 1rem;
   letter-spacing: 1.5px;
   line-height: 2rem;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   margin-top: 5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.legend h2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
 }

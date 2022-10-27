@@ -1,0 +1,39 @@
+.main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.serviceContainer {
+  margin-top: 5rem;
+}
+
+.serviceContainer h1 {
+  color: #fff;
+  letter-spacing: 3px;
+  font-family: "Montserrat", sans-serif;
+  /* line-height: 3rem; */
+  /* margin-bottom: 1rem; */
+}
+
+.serviceContainer p {
+  width: 100%;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2rem;
+  letter-spacing: 2px;
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+.serviceContainer a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: lightblue;
+  transition: all 0.5s ease-out;
+}
+
+.serviceContainer a:hover {
+  color: #fff;
+}
