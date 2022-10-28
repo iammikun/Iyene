@@ -1,0 +1,17 @@
+.main {
+  width: 100%;
+}
+
+.heroContainer {
+  padding-top: 10rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.heroContainer p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}

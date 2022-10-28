@@ -14,19 +14,24 @@ const Nav = () => {
         </Link>
         <nav className={classes.links}>
           <Link to="bio">
-            <li>Bio</li>
+            <li>Biography</li>
           </Link>
-          <Link className={classes.onCourse} to="oncourse">
+          <p className={classes.onCourse}>
             <li>On Course</li>
             <div className={classes.hover}>
               <Link to="gallery">gallery</Link>
               <Link to="swing">Swing videos</Link>
               <Link to="schedule">Schedule</Link>
             </div>
-          </Link>
-          <Link to="offcourse">
+          </p>
+          <p className={classes.offCourse}>
             <li>Off Course</li>
-          </Link>
+            <div className={classes.hover}>
+              <Link to="news">News</Link>
+              <Link to="interview">Interviews</Link>
+              <Link to="community-service">Community services</Link>
+            </div>
+          </p>
           <Link to="contact">
             <li>Contact</li>
           </Link>

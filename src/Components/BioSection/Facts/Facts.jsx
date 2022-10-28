@@ -6,8 +6,8 @@ const Facts = () => {
   return (
     <div className={classes.main}>
       <div className={classes.factsContainer}>
-        <h2>QUICK FACTS</h2>
-        <div className={classes.line}></div>
+        {/* <h2>QUICK FACTS</h2> */}
+        {/* <div className={classes.line}></div> */}
         <div className={classes.highlightedFacts}>
           <div className={classes.factsImage}>
             <img src={FactsImg} alt="" />

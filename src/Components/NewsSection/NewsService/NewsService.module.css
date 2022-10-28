@@ -1,0 +1,66 @@
+.theMainContent {
+  width: 100%;
+  margin-top: 13rem;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.serviceImg {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.serviceImg img {
+  width: 100%;
+}
+
+.serviceContainer {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.serviceContainer h2 {
+  color: lightblue;
+  margin-bottom: 1rem;
+  line-height: 50px;
+  letter-spacing: 1px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.serviceContainer p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  /* text-align: center; */
+  font-size: 1rem;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-bottom: 1.8rem;
+  opacity: 0.8;
+}
+
+.main a {
+  color: lightblue;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.main a:hover {
+  text-decoration: underline;
+}
+
+.line {
+  width: 85%;
+  height: 0.1px;
+  margin: 0 auto;
+  background-color: lightblue;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
