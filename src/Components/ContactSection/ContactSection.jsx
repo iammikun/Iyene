@@ -28,8 +28,13 @@ const ContactSection = () => {
           <h3>Get in touch</h3>
           <div className={classes.line}></div>
           <div className={classes.pee}>
+            <p> Eyo Essien (He/his)</p>
             <p>+234-708-714-7241</p>
             <p>+234-811-810-1579</p>
+          </div>
+          <div className={classes.pee}>
+            <p>Imeh Okon (She/her)</p>
+            <p>+234-811-796-9000</p>
           </div>
         </div>
       </div>
