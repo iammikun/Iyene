@@ -1,0 +1,12 @@
+.main {
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.heroContent p {
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.7rem;
+}

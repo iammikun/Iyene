@@ -13,7 +13,7 @@ const Nav = () => {
           <img src={logoDark} alt="" />
         </Link>
         <nav className={classes.links}>
-          <Link to="bio">
+          <Link to="biography">
             <li>Biography</li>
           </Link>
           <p className={classes.onCourse}>
@@ -30,6 +30,7 @@ const Nav = () => {
               <Link to="news">News</Link>
               <Link to="interview">Interviews</Link>
               <Link to="community-service">Community services</Link>
+              <Link to="school-records">School records</Link>
             </div>
           </p>
           <Link to="contact">

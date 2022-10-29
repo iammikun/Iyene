@@ -11,7 +11,7 @@
 }
 
 .serviceImg {
-  width: 45%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@
 .serviceContainer h2 {
   color: lightblue;
   margin-bottom: 1rem;
-  line-height: 50px;
+  line-height: 45px;
   letter-spacing: 1px;
   font-family: "Noto Sans", sans-serif;
   font-size: 1.8rem;

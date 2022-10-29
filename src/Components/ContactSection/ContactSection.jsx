@@ -6,7 +6,7 @@ const ContactSection = () => {
   return (
     <div className={classes.main}>
       <div className={classes.contactSectionContainer}>
-        <h1>CONTACT US</h1>
+        <p>CONTACT US</p>
         <div className={classes.line}></div>
       </div>
       <div className={classes.contactForm}>

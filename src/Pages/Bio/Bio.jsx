@@ -4,6 +4,7 @@ import BioText from "../../Components/BioSection/BioText/BioText";
 import Facts from "../../Components/BioSection/Facts/Facts";
 import classes from "./Bio.module.css";
 import Socials from "../../Components/HomeSection/Socials/Socials";
+import BioImage from "../../Components/BioSection/BioImage/BioImage";
 
 const Bio = () => {
   return (
@@ -11,6 +12,7 @@ const Bio = () => {
       <div className={classes.container}>
         <BioHero />
         <Facts />
+        <BioImage />
         <BioText />
         <Socials />
       </div>

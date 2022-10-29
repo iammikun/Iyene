@@ -3,10 +3,10 @@
 }
 
 .factsContainer {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-bottom: 8rem;
 }
 
 .factsContainer h2 {
@@ -36,7 +36,7 @@
 }
 
 .factsImage {
-  width: 50%;
+  width: 55%;
 }
 
 .factsImage img {

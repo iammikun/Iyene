@@ -1,13 +1,13 @@
 import React from "react";
 import classes from "./NewsService.module.css";
-import courseOne from "../../../Asset/Image/courseOne.jpg";
+import life from "../../../Asset/Image/life.jpeg";
 
 const NewsService = () => {
   return (
     <div className={classes.theMainContent}>
       <div className={classes.main}>
         <div className={classes.serviceImg}>
-          <img src={courseOne} alt="" />
+          <img src={life} alt="" />
         </div>
         <div className={classes.serviceContainer}>
           <h2>

@@ -40,7 +40,7 @@
   text-decoration: none;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 0.92rem;
   text-transform: uppercase;
   transition: 0.3s ease-out;
 }
@@ -53,7 +53,7 @@
 .links p {
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 0.92rem;
   text-transform: uppercase;
 }
 
