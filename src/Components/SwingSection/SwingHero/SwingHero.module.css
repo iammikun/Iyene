@@ -1,0 +1,21 @@
+.main {
+  width: 100%;
+}
+
+.swingContainer {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+
+.swingContainer p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.swingPee {
+  margin-top: 10rem;
+}

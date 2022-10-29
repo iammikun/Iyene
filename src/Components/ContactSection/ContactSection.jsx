@@ -25,7 +25,7 @@ const ContactSection = () => {
           </Link>
         </form>
         <div className={classes.call}>
-          <h3>Give us a call</h3>
+          <h3>Get in touch</h3>
           <div className={classes.line}></div>
           <div className={classes.pee}>
             <p>+234-708-714-7241</p>
