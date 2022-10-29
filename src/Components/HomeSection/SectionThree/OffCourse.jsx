@@ -17,9 +17,9 @@ const OffCourse = () => {
             opportunity to own her story, represent her country and impact her
             world, one day at a time...
           </p>
-          <Link to="community-service">
+          <a href="#" id="header">
             <button>READ MORE</button>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

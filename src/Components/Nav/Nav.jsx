@@ -7,7 +7,7 @@ import logoDark from "../../Asset/Image/logoDark.jpeg";
 
 const Nav = () => {
   return (
-    <div className={classes.main}>
+    <div className={classes.main} id="header">
       <div className={classes.navLink}>
         <Link to="/" className={classes.logo}>
           <img src={logoDark} alt="" />
@@ -30,7 +30,8 @@ const Nav = () => {
               <Link to="news">News</Link>
               <Link to="interview">Interviews</Link>
               <Link to="community-service">Community services</Link>
-              <Link to="school-records">School records</Link>
+              <Link to="school-records">Academics</Link>
+              <Link to="school-records">Awards</Link>
             </div>
           </p>
           <Link to="contact">
