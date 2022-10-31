@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Nav.module.css";
-import logoDark from "../../Asset/Image/logoDark.jpeg";
+import logoDark from "../../Asset/Image/Logo.png";
+import { AiOutlineDown } from "react-icons/ai";
+
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faArrowDowwn } from "@fortawesome/free-brands-svg-icons";
 
@@ -17,7 +19,9 @@ const Nav = () => {
             <li>Biography</li>
           </Link>
           <p className={classes.onCourse}>
-            <li>On Course</li>
+            <li>
+              On Course <AiOutlineDown className={classes.arrow} />
+            </li>
             <div className={classes.hover}>
               <Link to="gallery">gallery</Link>
               <Link to="swing">Swing videos</Link>
@@ -25,7 +29,9 @@ const Nav = () => {
             </div>
           </p>
           <p className={classes.offCourse}>
-            <li>Off Course</li>
+            <li>
+              Off Course <AiOutlineDown className={classes.arrow} />
+            </li>
             <div className={classes.hover}>
               <Link to="news">News</Link>
               <Link to="interview">Interviews</Link>

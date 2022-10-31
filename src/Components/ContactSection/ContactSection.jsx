@@ -15,10 +15,10 @@ const ContactSection = () => {
           onClick="submit"
           id="login"
         >
-          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Full Name" required />
           <div className={classes.flexForm}>
-            <input type="text" placeholder="Email" />
-            <input type="text" placeholder="Phone" />
+            <input type="text" placeholder="Email" required />
+            <input type="text" placeholder="Phone" required />
           </div>
           <Link to="mailto:iyene.essien@gmail.com">
             <button>SEND A MESSAGE</button>
@@ -28,12 +28,12 @@ const ContactSection = () => {
           <h3>Get in touch</h3>
           <div className={classes.line}></div>
           <div className={classes.pee}>
-            <p> Eyo Essien (He/his)</p>
+            <h4> Eyo Essien (He/his)</h4>
             <p>+234-708-714-7241</p>
             <p>+234-811-810-1579</p>
           </div>
           <div className={classes.pee}>
-            <p>Imeh Okon (She/her)</p>
+            <h4>Imeh Okon (She/her)</h4>
             <p>+234-811-796-9000</p>
           </div>
         </div>

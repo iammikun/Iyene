@@ -14,7 +14,7 @@ const OnCourse = () => {
             on her legacy with characteristic persistence, discipline and
             passion that makes her stand out from the  crowd.
           </p>
-          <Link to="oncourse">
+          <Link to="gallery">
             <button>SEE MORE</button>
           </Link>
         </div>

@@ -7,11 +7,11 @@ const Hero = () => {
     <div className={classes.main}>
       <div className={classes.heroContainer}>
         <h1>Nigeria's #1 junior girls' golfer.</h1>
-        <Link to="bio">
+        <Link to="biography">
           <button>Read More</button>
         </Link>
       </div>
-      <Link to="swing">Watch Swing Videos</Link>
+      {/* <Link to="swing">Watch Swing Videos</Link> */}
     </div>
   );
 };
