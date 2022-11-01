@@ -1,0 +1,29 @@
+.main {
+  width: 100%;
+}
+
+.vidContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  /* gap: 3rem; */
+}
+
+.vidContent {
+  width: 100%;
+}
+
+video {
+  margin-right: 3rem;
+  width: 70%;
+  margin-top: -10rem;
+  /* border: 1px solid lightblue; */
+}
+
+.vidContainer p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  /* text-align: center; */
+  font-size: 1.7rem;
+}

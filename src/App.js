@@ -10,6 +10,7 @@ import Gallery from './Pages/Gallery/Gallery';
 import Schedule from './Pages/Schedule/Schedule';
 import News from './Pages/News/News';
 import Service from './Pages/Service/Service';
+import Interview from './Pages/Interviews/Interview';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="schedule" element={<Schedule />} />
         <Route path="news" element={<News />} />
         <Route path="community-service" element={<Service />} />
+        <Route path="interview" element={<Interview />} />
       </Routes>
       <Footer />
     </div>

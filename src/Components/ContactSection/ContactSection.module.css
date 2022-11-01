@@ -95,8 +95,8 @@ input:hover {
 .contactForm button {
   width: 100%;
   padding: 1rem 1rem;
-  background-color: #000;
-  color: #fff;
+  background-color: lightblue;
+  color: #000;
   font-family: "Noto Sans", sans-serif;
   font-size: 1rem;
   cursor: pointer;
@@ -111,7 +111,7 @@ input:hover {
 
 .contactForm button:hover {
   border: 1px solid rgb(91, 113, 121);
-  background-color: lightblue;
+  /* background-color: lightblue; */
   color: #000;
 }
 

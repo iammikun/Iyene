@@ -15,6 +15,20 @@
   margin-bottom: 0.1rem;
 }
 
+.navLink a {
+  text-decoration: none;
+}
+
+.logo h1 {
+  color: lightblue;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-family: cursive;
+  letter-spacing: 2px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -45,8 +59,7 @@
   transition: 0.3s ease-out;
 }
 
-.links a:hover,
-.onCourse a:hover {
+.links a:hover {
   opacity: 0.6;
 }
 
@@ -64,9 +77,18 @@
   align-items: center;
 }
 
+.offCourse li:hover,
+.onCourse li:hover {
+  opacity: 0.6;
+}
+
 .arrow {
   margin-left: 8px;
   align-items: center;
+}
+
+.arrow:hover {
+  opacity: 0.6;
 }
 
 .hover {
@@ -81,7 +103,7 @@
   text-transform: capitalize;
   opacity: 0;
   color: black;
-  margin-top: 2.1rem;
+  margin-top: 1.7rem;
 }
 
 .onCourse:hover .hover {

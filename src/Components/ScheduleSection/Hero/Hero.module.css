@@ -1,0 +1,34 @@
+.main {
+  background-image: url("../../../Asset/Image/NewsGolf.JPG");
+  height: 82vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 15rem;
+  width: 100%;
+  background-attachment: fixed;
+  background-color: #a29e9e;
+  background-blend-mode: multiply;
+}
+
+.heroSect h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+}
+
+.heroSect p {
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 3rem;
+}
+
+.heroSect .diff {
+  /* margin-top: 10rem; */
+}
