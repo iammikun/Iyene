@@ -58,3 +58,22 @@
 .main a:hover {
   color: lightblue;
 }
+
+@media screen and (max-width: 1175px) {
+  .heroContainer button {
+    width: 18%;
+  }
+}
+
+@media screen and (max-width: 848px) {
+  .heroContainer button {
+    width: 25%;
+    padding: 0.8rem 0.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroContainer {
+    padding-top: 17rem;
+  }
+}

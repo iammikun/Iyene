@@ -1,4 +1,5 @@
 import React from "react";
+import Goals from "../../Components/HomeSection/Goals/Goals.jsx";
 import Hero from "../../Components/HomeSection/Hero.jsx";
 import ReviewTxt from "../../Components/HomeSection/Review/ReviewTxt.jsx";
 import Offcourse from "../../Components/HomeSection/SectionThree/OffCourse";
@@ -14,6 +15,7 @@ const Home = () => {
         <OnCourse />
         <Offcourse />
         <ReviewTxt />
+        <Goals />
         <Socials />
       </div>
     </div>

@@ -66,3 +66,9 @@
   color: #000;
   opacity: 0.9;
 }
+
+@media screen and (max-width: 1400px) {
+  .sectionContainer {
+    width: 85%;
+  }
+}
