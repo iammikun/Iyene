@@ -25,7 +25,6 @@ const Nav = () => {
             </li>
             <div className={classes.hover}>
               <Link to="gallery">gallery</Link>
-              <Link to="swing">Swing videos</Link>
               <Link to="schedule">Schedule</Link>
             </div>
           </p>
@@ -41,6 +40,9 @@ const Nav = () => {
               <Link to="awards">Awards</Link>
             </div>
           </p>
+          <Link to="swing">
+            <li>Swing Videos</li>
+          </Link>
           <Link to="contact">
             <li>Contact</li>
           </Link>

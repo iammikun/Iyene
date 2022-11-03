@@ -7,10 +7,9 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-
-// Demo styles, see 'Styles' section below for some notes on use.
 import "react-accessible-accordion/dist/fancy-example.css";
 import classes from "./Accordion.module.css";
+import { AiOutlineDown } from "react-icons/ai";
 
 export default function Example() {
   return (
@@ -18,8 +17,9 @@ export default function Example() {
       <div className={classes.main}>
         <AccordionItem>
           <AccordionItemHeading>
-            <AccordionItemButton>
+            <AccordionItemButton className={classes.Accordion}>
               <h3>Short Term Age 14 - 17 Duration: 4years</h3>
+              <AiOutlineDown className={classes.arrow} />
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
@@ -45,8 +45,9 @@ export default function Example() {
         </AccordionItem>
         <AccordionItem>
           <AccordionItemHeading>
-            <AccordionItemButton>
+            <AccordionItemButton className={classes.Accordion}>
               <h3>Mid Term Age 18 - 21 Duration: 4years</h3>
+              <AiOutlineDown className={classes.arrow} />
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
@@ -59,8 +60,9 @@ export default function Example() {
         </AccordionItem>
         <AccordionItem>
           <AccordionItemHeading>
-            <AccordionItemButton>
+            <AccordionItemButton className={classes.AccordionLast}>
               <h3>Long Term Age 21 - 24 Duration: 4years</h3>
+              <AiOutlineDown className={classes.arrowLast} />
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>

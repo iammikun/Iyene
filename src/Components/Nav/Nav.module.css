@@ -103,21 +103,21 @@
   text-transform: capitalize;
   opacity: 0;
   color: black;
-  margin-top: 1.7rem;
+  margin-top: 1.9rem;
 }
 
 .onCourse:hover .hover {
   opacity: 1;
   background: lightblue;
   padding: 1rem;
-  width: 40%;
+  width: 27%;
 }
 
 .offCourse:hover .hover {
   opacity: 1;
   background: lightblue;
   padding: 1rem;
-  width: 50%;
+  width: 40%;
 }
 
 .hover a {

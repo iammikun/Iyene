@@ -1,7 +1,11 @@
 .main {
   width: 80%;
   margin: 0 auto;
-  margin-top: 10rem;
+  margin-top: 5rem;
+}
+
+.txtContent {
+  margin-top: 9rem;
 }
 
 .txtContent h2 {
@@ -36,11 +40,17 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .legend h2 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+  .main {
+    width: 90%;
+  }
 }

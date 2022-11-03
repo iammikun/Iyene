@@ -18,3 +18,61 @@
   letter-spacing: 1px;
   margin-top: 1rem;
 }
+
+.Accordion {
+  border-radius: 5px;
+  color: lightblue;
+  background-color: black;
+  border: 1px solid rgb(61, 61, 61);
+  color: white;
+  cursor: pointer;
+  padding: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* border-bottom: 0.3px solid rgb(51, 52, 52); */
+  border-bottom: none;
+  letter-spacing: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.AccordionLast {
+  border-radius: 5px;
+  color: lightblue;
+  background-color: black;
+  border: 1px solid rgb(21, 21, 21);
+  color: white;
+  cursor: pointer;
+  padding: 2rem;
+  border-bottom: 0.3px solid rgb(21, 21, 21);
+  letter-spacing: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.arrow {
+  font-size: 1.5rem;
+}
+
+.arrowLast {
+  margin-right: -0.7rem;
+  font-size: 1.5rem;
+}
+
+.Accordion:hover,
+.AccordionLast:hover {
+  background-color: rgb(17, 16, 16);
+  border: 0.3px solid rgb(21, 21, 21);
+}
+
+@media screen and (max-width: 1080px) {
+  .main {
+    width: 70%;
+  }
+}

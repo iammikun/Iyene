@@ -24,7 +24,7 @@ const BioText = () => {
           is also a member of Taft School junior varsity basketball girls’ team
           and the Taft Robotics team.In academics, Iyene is a well-rounded STEM
           student and intends to study electrical engineering with
-          specialization in artificially intelligence and robotics.
+          specialization in artificial intelligence and robotics.
         </p>
         <p>
           {" "}
