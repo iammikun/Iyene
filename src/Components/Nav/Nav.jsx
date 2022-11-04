@@ -16,6 +16,9 @@ const Nav = () => {
           <h1>I E</h1>
         </Link>
         <nav className={classes.links}>
+          <Link to="swing">
+            <li>Swing Videos</li>
+          </Link>
           <Link to="biography">
             <li>Biography</li>
           </Link>
@@ -40,9 +43,6 @@ const Nav = () => {
               <Link to="awards">Awards</Link>
             </div>
           </p>
-          <Link to="swing">
-            <li>Swing Videos</li>
-          </Link>
           <Link to="contact">
             <li>Contact</li>
           </Link>

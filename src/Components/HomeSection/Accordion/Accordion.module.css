@@ -46,7 +46,7 @@
   border: 1px solid rgb(21, 21, 21);
   color: white;
   cursor: pointer;
-  padding: 2rem;
+  padding: 1.5rem;
   border-bottom: 0.3px solid rgb(21, 21, 21);
   letter-spacing: 8px;
   display: flex;
@@ -54,6 +54,8 @@
   justify-content: space-between;
   align-items: center;
   transition: all 0.3s ease-in-out;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .arrow {
@@ -61,7 +63,7 @@
 }
 
 .arrowLast {
-  margin-right: -0.7rem;
+  margin-right: -0.2rem;
   font-size: 1.5rem;
 }
 

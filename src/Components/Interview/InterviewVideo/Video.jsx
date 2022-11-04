@@ -32,7 +32,7 @@ const Video = () => {
           src="https://www.youtube.com/embed/gAhmeyaCaYI"
           title="YouTube video player"
           frameborder="0"
-          allow="accelerometer; autoplay;"
+          allow="accelerometer; autoplay; gyroscope; picture-in-picture clipboard-write; encrypted-media"
           allowfullscreen
         ></iframe>
         <p>Teenage Golf Star Who Is Eager To Take The World By Storm</p>
