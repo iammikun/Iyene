@@ -11,7 +11,7 @@ const Socials = () => {
   return (
     <div className={classes.main}>
       <div className={classes.socialsContainer}>
-        <h1>SOCIAL MEDIA</h1>
+        <h1>FOLLOW ME</h1>
         <div className={classes.line}></div>
         <div className={classes.singleCol}>
           <a

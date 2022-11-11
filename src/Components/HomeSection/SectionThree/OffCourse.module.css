@@ -22,10 +22,6 @@
   margin: 0 auto;
 }
 
-/* .OffSect {
-  margin-top: 5rem;
-} */
-
 .OffSect h1 {
   color: #fff;
   font-family: "Noto Sans", sans-serif;
@@ -70,5 +66,67 @@
 @media screen and (max-width: 1400px) {
   .sectionContainer {
     width: 85%;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .sectionContainer {
+    gap: 7rem;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 938px) {
+  .OffSect button {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .sectionContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    gap: 4rem;
+  }
+
+  .OffImg {
+    width: 100%;
+  }
+
+  .OffImg img {
+    width: 100%;
+  }
+
+  .sectionContainer button {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 673px) {
+  .sectionContainer button {
+    width: 35%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .sectionContainer button {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sectionContainer {
+    width: 100%;
+  }
+
+  .OffSect {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .sectionContainer button {
+    width: 50%;
   }
 }

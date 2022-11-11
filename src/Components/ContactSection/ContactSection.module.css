@@ -133,4 +133,60 @@ input:hover {
   letter-spacing: 3px;
   font-size: 1.1rem;
   line-height: 2.5rem;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .contactForm {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contactForm {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contactForm {
+    width: 90%;
+  }
+
+  form {
+    padding: 1rem;
+    border: 1px solid #5353534f;
+  }
+
+  .contactForm input {
+    margin-top: 1rem;
+  }
+
+  .contactForm button {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  form {
+    padding: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .contactForm input {
+    padding: 0.8rem 0.5rem;
+  }
+
+  .contactForm button {
+    padding: 0.8rem 0.8rem;
+  }
+
+  .call h3 {
+    /* font-size: 1.5rem; */
+  }
+
+  .pee p {
+    opacity: 0.6;
+  }
 }

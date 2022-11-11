@@ -10,3 +10,27 @@
 .imageContainer img {
   width: 100%;
 }
+
+@media screen and (max-width: 1440px) {
+  .imageContainer {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .imageContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .imageContainer {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .imageContainer {
+    width: 100%;
+  }
+}

@@ -123,3 +123,15 @@
 .hover a {
   color: black;
 }
+
+@media screen and (max-width: 976px) {
+  .links {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .links {
+    display: none;
+  }
+}

@@ -31,7 +31,6 @@
 
 .legend {
   color: #fff;
-  font-family: "Montserrat", sans-serif;
   font-family: "Noto Sans", sans-serif;
   color: #fff;
   font-size: 1rem;
@@ -52,5 +51,41 @@
 @media screen and (max-width: 1080px) {
   .main {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .main {
+    width: 90%;
+  }
+
+  .legend {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 95%;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 673px) {
+  .main {
+    width: 100%;
+    /* padding: 1rem; */
+  }
+
+  .word {
+    width: 100%;
+  }
+
+  .legend {
+    font-size: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 1rem;
+    width: 100%;
   }
 }

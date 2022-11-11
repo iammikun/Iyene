@@ -77,3 +77,38 @@
     padding-top: 17rem;
   }
 }
+
+@media screen and (max-width: 673px) {
+  .heroContainer button {
+    width: 30%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .heroContainer button {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .main {
+    background-color: #bab7b7;
+  }
+
+  .heroContainer {
+    text-align: left;
+    padding-top: 22rem;
+  }
+
+  .heroContainer h1 {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    width: 100%;
+    text-align: left;
+  }
+
+  .heroContainer button {
+    width: 45%;
+    padding: 0.5rem 0.8rem;
+  }
+}

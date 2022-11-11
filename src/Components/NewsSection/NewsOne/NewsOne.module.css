@@ -74,3 +74,60 @@
   margin-top: 3rem;
   margin-bottom: 4rem;
 }
+
+@media screen and (max-width: 1110px) {
+  .sectOne {
+    width: 100%;
+  }
+
+  .line {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .newsFlex {
+    width: 52%;
+  }
+
+  .newsOne > a {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sectOne {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .newsOne {
+    width: 100%;
+  }
+
+  .newsFlex {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sectOne {
+    width: 100%;
+  }
+
+  .newsOne {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .newsOne > a {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .line {
+    width: 100%;
+  }
+}

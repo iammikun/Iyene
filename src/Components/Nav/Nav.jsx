@@ -16,11 +16,11 @@ const Nav = () => {
           <h1>I E</h1>
         </Link>
         <nav className={classes.links}>
-          <Link to="swing">
-            <li>Swing Videos</li>
-          </Link>
           <Link to="biography">
             <li>Biography</li>
+          </Link>
+          <Link to="swing">
+            <li>Swing Videos</li>
           </Link>
           <p className={classes.onCourse}>
             <li>

@@ -64,3 +64,41 @@
   margin-top: 3rem;
   margin-bottom: 4rem;
 }
+
+@media screen and (max-width: 1330px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .serviceImg {
+    width: 100%;
+  }
+
+  .serviceContainer {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .line {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main {
+    width: 100%;
+  }
+
+  .serviceContainer {
+    width: 95%;
+  }
+}

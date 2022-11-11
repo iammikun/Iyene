@@ -69,3 +69,9 @@
   opacity: 0.5;
   box-shadow: -4px 9px 65px -12px rgba(0, 0, 0, 0.75);
 }
+
+@media screen and (max-width: 830px) {
+  .main {
+    margin-top: 12rem;
+  }
+}

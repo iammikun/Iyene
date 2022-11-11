@@ -9,34 +9,15 @@
   margin-bottom: 8rem;
 }
 
-.factsContainer h2 {
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  font-size: 2.2rem;
-  letter-spacing: 3px;
-}
-.line {
-  width: 100px;
-  height: 2px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  background-color: lightblue;
-  margin-top: 1rem;
-}
-
 .highlightedFacts {
   display: flex;
   flex-direction: row;
   gap: 5rem;
-  /* margin-top: 2rem; */
-  /* align-items: center; */
+  align-items: center;
 }
 
 .factsImage {
-  width: 55%;
+  width: 60%;
 }
 
 .factsImage img {
@@ -45,9 +26,62 @@
 
 .highlightedFacts li {
   color: #fff;
-  /* margin-top: 1rem; */
   font-family: "Noto Sans", sans-serif;
   font-size: 1rem;
   letter-spacing: 1.5px;
   line-height: 3rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .factsImage {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .factsContainer {
+    width: 90%;
+    margin-bottom: 5rem;
+  }
+
+  .highlightedFacts {
+    gap: 3rem;
+  }
+
+  .factsImage {
+    width: 93%;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .highlightedFacts {
+    gap: 2.5rem;
+  }
+
+  .factsImage {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .factsContainer {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .factsImage {
+    display: none;
+  }
+
+  .highlightedFacts ul {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .highlightedFacts ul {
+    width: 90%;
+  }
 }

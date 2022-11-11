@@ -29,7 +29,6 @@
   padding: 1.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  /* border-bottom: 0.3px solid rgb(51, 52, 52); */
   border-bottom: none;
   letter-spacing: 8px;
   display: flex;
@@ -76,5 +75,41 @@
 @media screen and (max-width: 1080px) {
   .main {
     width: 70%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .main {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 673px) {
+  .main {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main {
+    width: 93%;
+  }
+
+  .Accordion,
+  .AccordionLast {
+    padding: 0.8rem;
+    margin-top: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .Accordion h3,
+  .AccordionLast h3 {
+    font-size: 1rem;
+  }
+
+  .arrow,
+  .arrowLast {
+    font-size: 1rem;
   }
 }

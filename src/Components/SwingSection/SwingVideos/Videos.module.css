@@ -61,11 +61,12 @@
 
 button {
   font-size: 1.2rem;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   border-radius: 5px;
 }
 
 button:hover {
   /* background-color: rgb(138, 196, 215); */
   opacity: 0.8;
+  border: ;
 }

@@ -11,10 +11,6 @@
   margin-top: 10rem;
 }
 
-/* .flexSection {
-  margin-top: 5rem;
-} */
-
 .flexSection h1 {
   color: #fff;
   font-family: "Noto Sans", sans-serif;
@@ -69,5 +65,70 @@
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 976px) {
+  .OnSection {
+    gap: 5rem;
+    align-items: center;
+  }
+
+  .flexSection {
+    width: 70%;
+  }
+
+  .flexSection h1 {
+    width: 100%;
+  }
+
+  .flexSection p {
+    width: 100%;
+  }
+
+  .flexSection button {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .OnSection {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 3rem;
+  }
+
+  .flexSection {
+    width: 100%;
+  }
+
+  .flexSection button {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 673px) {
+  .OnSection button {
+    width: 35%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .OnSection button {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .OnSection {
+    width: 100%;
+  }
+
+  .flexSection {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .OnSection button {
+    width: 50%;
+  }
 }
