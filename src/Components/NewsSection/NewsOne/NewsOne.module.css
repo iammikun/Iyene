@@ -131,3 +131,13 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .newsOne a {
+    font-size: 1.4rem;
+  }
+
+  .newsOne p {
+    font-size: 0.938rem;
+  }
+}

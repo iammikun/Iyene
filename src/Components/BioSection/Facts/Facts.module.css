@@ -84,4 +84,8 @@
   .highlightedFacts ul {
     width: 90%;
   }
+
+  .highlightedFacts li {
+    font-size: 0.938rem;
+  }
 }

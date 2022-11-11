@@ -52,4 +52,20 @@
   .BioText {
     width: 90%;
   }
+
+  .BioText h2 {
+    font-size: 1.8rem;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .BioText p {
+    font-size: 0.938rem;
+    opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .BioText h2 {
+    font-size: 1.6rem;
+  }
 }

@@ -128,7 +128,17 @@
     margin: 0 auto;
   }
 
+  .flexSection h1 {
+    font-size: 1.6rem;
+  }
+
+  .flexSection p {
+    font-size: 0.875rem;
+  }
+
   .OnSection button {
     width: 50%;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.938rem;
   }
 }

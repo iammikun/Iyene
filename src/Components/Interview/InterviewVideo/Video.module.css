@@ -46,3 +46,36 @@
 .veedeo {
   width: 100%;
 }
+
+@media screen and (max-width: 1440px) {
+  .videoContainer {
+    width: 90%;
+  }
+
+  .sectVideo {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sectVideo {
+    gap: 6rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .videoContainer p,
+  .veedeo p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .videoContainer {
+    margin-top: 3rem;
+  }
+
+  .sectVideo {
+    gap: 3rem;
+  }
+}

@@ -38,3 +38,9 @@
 .bioHeroContainer a:hover {
   color: lightblue;
 }
+
+@media screen and (max-width: 375px) {
+  .bioHeroContainer p {
+    font-size: 1.5rem;
+  }
+}

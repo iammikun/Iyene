@@ -26,7 +26,7 @@ const ScheduleContent = () => {
         </div>
       </div>
       <Link to="">
-        <button>DOWNLOAD MEDIA KIT</button>
+        <button>DOWNLOAD SCHEDULE</button>
       </Link>
     </div>
   );

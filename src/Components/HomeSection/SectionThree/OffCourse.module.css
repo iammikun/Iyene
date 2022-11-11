@@ -126,7 +126,17 @@
     margin: 0 auto;
   }
 
+  .OffSect h1 {
+    font-size: 1.6rem;
+  }
+
+  .OffSect p {
+    font-size: 0.875rem;
+  }
+
   .sectionContainer button {
     width: 50%;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.938rem;
   }
 }

@@ -23,10 +23,10 @@ const NewsOne = () => {
               Championship
             </a>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
-              id voluptates, veritatis cupiditate quae exercitationem a sed
-              dignissimos consequuntur velit praesentium quasi, asperiores eum
-              quaerat aut. Rerum necessitatibus temporibus impedit!
+              President Muhammadu Buhari congratulates Iyeneobong Essien, a
+              16-year-old Nigerian girl, for finishing second at the Champion of
+              Champions World Golf Championship Invitational in Northern
+              Ireland.
             </p>
             <div className={classes.carding}>
               <a
@@ -50,10 +50,12 @@ const NewsOne = () => {
               Honoured by akwa ibom iyene essien dreams of becoming world beater
             </a>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
-              id voluptates, veritatis cupiditate quae exercitationem a sed
-              dignissimos consequuntur velit praesentium quasi, asperiores eum
-              quaerat aut. Rerum necessitatibus temporibus impedit!
+              Nigeria’s rising international golf star, Iyeneobong Essien,
+              cannot stop thanking her stars because of her heritage. The
+              16-year-old prodigy, who was among Akwa Ibom State indigenes
+              recently honoured by the state on its 35th-anniversary
+              celebrations, told The Guardian recently that Governor Udom
+              Emmanuel has given her wings to fly beyond human comprehension
             </p>
             <div className={classes.carding}>
               <a
@@ -83,10 +85,12 @@ const NewsOne = () => {
               Iyene essien the making of an emerging golf star{" "}
             </a>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
-              id voluptates, veritatis cupiditate quae exercitationem a sed
-              dignissimos consequuntur velit praesentium quasi, asperiores eum
-              quaerat aut. Rerum necessitatibus temporibus impedit!
+              The lines are beginning to fall in pleasant places for Iyeneobong
+              Essien. From the starry-eyed infant, who first took a tiny step
+              into golf at the IBB Golf and Country Club, Abuja, a few years
+              ago, Iyene, as she is simply known, is growing into a much sought
+              after player, who never fails to do something noteworthy at every
+              given opportunity.
             </p>
             <div className={classes.carding}>
               <a
@@ -110,10 +114,10 @@ const NewsOne = () => {
               Article us Nigeria Golf
             </a>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
-              id voluptates, veritatis cupiditate quae exercitationem a sed
-              dignissimos consequuntur velit praesentium quasi, asperiores eum
-              quaerat aut. Rerum necessitatibus temporibus impedit!
+              Iyene Essien’s golf medals already outnumber her 13 years of age,
+              and she has competed on three continents. She is the top junior
+              player in Nigeria, and now wants to deliver her country’s first
+              gold medal for golf at the 2022 Summer Youth Olympics.
             </p>
             <div className={classes.carding}>
               <a

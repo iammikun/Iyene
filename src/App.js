@@ -11,6 +11,7 @@ import Schedule from './Pages/Schedule/Schedule';
 import News from './Pages/News/News';
 import Service from './Pages/Service/Service';
 import Interview from './Pages/Interviews/Interview';
+import Academic from "./Pages/Academic/Academics"
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="news" element={<News />} />
         <Route path="community-service" element={<Service />} />
         <Route path="interview" element={<Interview />} />
+        <Route path="school-records" element={<Academic />} />
       </Routes>
       <Footer />
     </div>

@@ -89,3 +89,13 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .txtContent h2 {
+    font-size: 1.6rem;
+  }
+
+  .txtContent .line {
+    margin-top: 1rem;
+  }
+}
