@@ -205,7 +205,9 @@ const Videos = () => {
           </div>
         </>
       ) : null}
-      <button onClick={() => setShow(!show)}>More Swings</button>
+      <button onClick={() => setShow(!show)} className={classes.btn}>
+        More Swings
+      </button>
       {/* <button onClick={() => setShow(false)}>Less Swings</button> */}
     </div>
   );

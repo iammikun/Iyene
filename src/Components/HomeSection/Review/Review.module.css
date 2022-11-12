@@ -39,13 +39,19 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
+  padding-right: 8rem;
+  padding-left: 8rem;
 }
 
 .legend h2 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   text-align: center;
+}
+
+.word {
+  width: 100%;
 }
 
 @media screen and (max-width: 1080px) {
@@ -83,8 +89,8 @@
 
   .legend {
     font-size: 1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     margin-bottom: 1rem;
     width: 100%;
   }

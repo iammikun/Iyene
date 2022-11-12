@@ -1,9 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import classes from "./MobileNav.module.css";
 import { AiOutlineDown } from "react-icons/ai";
+import { CgMenuLeft } from "react-icons/cg";
+import { CgClose } from "react-icons/cg";
 
 const MobileNav = () => {
+  const [open, setOpen] = useState(false);
+
+  const hamburgerIcon = (
+    <CgMenuLeft
+      className={classes.hamburger}
+      size="40px"
+      color="lightblue"
+      onClick={() => setOpen(!open)}
+    />
+  );
+
+  const closeIcon = (
+    <CgClose
+      className={classes.hamburger}
+      size="40px"
+      color="lightblue"
+      onClick={() => setOpen(!open)}
+    />
+  );
+
   return (
     <div className={classes.main}>
       <div className={classes.mobileNavContainer}>
@@ -12,6 +34,9 @@ const MobileNav = () => {
             <h1>I E</h1>
           </Link>
         </div>
+      </div>
+      {open ? closeIcon : hamburgerIcon}
+      {open && (
         <nav className={classes.links}>
           <Link to="biography">
             <li>Biography</li>
@@ -44,7 +69,7 @@ const MobileNav = () => {
             <li>Contact</li>
           </Link>
         </nav>
-      </div>
+      )}
     </div>
   );
 };

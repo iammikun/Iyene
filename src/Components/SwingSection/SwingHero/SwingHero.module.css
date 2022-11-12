@@ -19,3 +19,15 @@
 .swingPee {
   margin-top: 10rem;
 }
+
+@media screena and (max-width: 768px) {
+  .swingPee {
+    font-size: 1.5rem;
+  }
+}
+
+@media screena and (max-width: 425px) {
+  .swingPee {
+    font-size: 1.2rem;
+  }
+}
