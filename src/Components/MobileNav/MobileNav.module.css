@@ -1,7 +1,7 @@
 .main {
   width: 100%;
-  backdrop-filter: blur(10px);
   border-top: 0.1px solid lightblue;
+  display: none;
 }
 
 .navLink {
@@ -19,6 +19,14 @@
   text-decoration: none;
 }
 
+.mobileNavContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .logo h1 {
   color: lightblue;
   text-decoration: none;
@@ -34,6 +42,7 @@
   flex-direction: row;
   align-items: center;
   gap: 5px;
+  text-decoration: none;
 }
 
 .logo img {
@@ -124,18 +133,30 @@
   color: black;
 }
 
-@media screen and (max-width: 976px) {
-  .links {
-    gap: 2rem;
-  }
-}
-
 @media screen and (max-width: 768px) {
-  .links {
-    display: none;
+  .main {
+    display: block;
   }
 
-  .main {
-    display: none;
+  .logo {
+    width: 20%;
+  }
+
+  .logo a {
+    width: 100%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    /* width: 40%; */
+    text-align: left;
+    height: 50vh;
+    margin-top: 2.5rem;
+    gap: 3rem;
+  }
+
+  .links a {
+    align-items: left;
   }
 }

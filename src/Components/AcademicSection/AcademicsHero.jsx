@@ -7,7 +7,9 @@ const AcademicsHero = () => {
       <div className={classes.AcademicsHero}>
         <p>ACADEMICS</p>
       </div>
-      <button>DOWNLOAD REPORTS</button>
+      <a href="https://drive.google.com/file/d/10tBuuBTl_hDb5hmyDV9_wu-5b5h5fPmf/view">
+        DOWNLOAD REPORTS
+      </a>
     </div>
   );
 };

@@ -12,12 +12,14 @@ import News from './Pages/News/News';
 import Service from './Pages/Service/Service';
 import Interview from './Pages/Interviews/Interview';
 import Academic from "./Pages/Academic/Academics"
+import MobileNav from './Components/MobileNav/MobileNav';
 
 
 function App() {
   return (
     <div className="App">
       <Nav />
+      <MobileNav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="biography" element={<Bio />} />
