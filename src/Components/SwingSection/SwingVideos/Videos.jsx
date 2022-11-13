@@ -112,7 +112,7 @@ const Videos = () => {
             <p> Driver - Full swing - 224 Yards - Fv view</p>
           </div>
           <div className={classes.vidContainerTwo}>
-            <div className={classes.veedContent}>
+            <div className={classes.vidContent}>
               <iframe
                 src="https://www.youtube.com/embed/r9wEeQUFg-I"
                 title="YouTube video player"
@@ -120,7 +120,17 @@ const Videos = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-              <p>Fv View</p>
+              <p>View 1</p>
+            </div>
+            <div className={classes.vidContent}>
+              <iframe
+                src="https://www.youtube.com/embed/6R0zYAv5OFY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>View 2</p>
             </div>
           </div>
           <div className={classes.swingPee}>
@@ -154,7 +164,7 @@ const Videos = () => {
           <div className={classes.vidContainerTwo}>
             <div className={classes.vidContent}>
               <iframe
-                src="https://www.youtube.com/embed/4D7O9yVNeRs"
+                src="https://www.youtube.com/embed/AK-48_upa50"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -189,7 +199,7 @@ const Videos = () => {
             </div>
           </div>
           <div className={classes.swingPee}>
-            <p> Driver - Full swing - 144 Yards - view</p>
+            <p> Driver - Full swing - 144 Yards DTL & Fv View</p>
           </div>
           <div className={classes.vidContainerTwo}>
             <div className={classes.veedContent}>
@@ -200,7 +210,29 @@ const Videos = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-              <p>View 1</p>
+              <p>Fv View</p>
+            </div>
+          </div>
+          <div className={classes.vidContainerTwo}>
+            <div className={classes.vidContent}>
+              <iframe
+                src="https://www.youtube.com/embed/HP7nLYvGfJs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>DTL View 1</p>
+            </div>
+            <div className={classes.vidContent}>
+              <iframe
+                src="https://www.youtube.com/embed/sHUWF08e-RE"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Fv View</p>
             </div>
           </div>
         </>

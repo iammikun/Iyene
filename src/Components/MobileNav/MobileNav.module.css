@@ -51,7 +51,12 @@
     left: 0px;
     right: 300px;
     background-color: black;
-    padding: 4rem 3rem;
+    /* padding: 4rem 3rem; */
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    width: 100%;
+    margin-top: 0rem;
+    transition: all 0.5s ease-in-out;
   }
 
   .links a {
@@ -61,6 +66,8 @@
     font-size: 0.92rem;
     text-transform: uppercase;
     transition: 0.3s ease-out;
+    transition: all 0.5s ease-in-out;
+    /* padding: 1rem 0; */
   }
 
   .links a:hover {
@@ -73,17 +80,20 @@
     font-size: 0.92rem;
     text-transform: uppercase;
     align-items: center;
+    transition: all 0.5s ease-in-out;
   }
 
   .onCourse li,
   .offCourse li {
     cursor: pointer;
     align-items: center;
+    transition: all 0.5s ease-in-out;
   }
 
   .offCourse li:hover,
   .onCourse li:hover {
     opacity: 0.6;
+    transition: all 0.5s ease-in-out;
   }
 
   .arrow {
@@ -108,6 +118,7 @@
     opacity: 0;
     color: black;
     margin-top: 1.9rem;
+    transition: all 0.5s ease-in-out;
   }
 
   .onCourse:hover .hover {

@@ -175,7 +175,7 @@ input:hover {
   }
 
   .contactForm input {
-    padding: 0.8rem 0.5rem;
+    padding: 1rem 0.5rem;
   }
 
   .contactForm button {
@@ -183,10 +183,25 @@ input:hover {
   }
 
   .call h3 {
-    /* font-size: 1.5rem; */
+    font-size: 1.8rem;
+  }
+
+  .pee h4 {
+    font-size: 1.1rem;
   }
 
   .pee p {
     opacity: 0.6;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contactForm input {
+    padding: 0.8rem 0.5rem;
+  }
+
+  .contactForm button {
+    padding: 0.8rem 0.5rem;
   }
 }

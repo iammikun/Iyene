@@ -88,4 +88,13 @@
   .highlightedFacts li {
     font-size: 0.938rem;
   }
+
+  .highlightedFacts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .factsImage {
+    display: block;
+  }
 }

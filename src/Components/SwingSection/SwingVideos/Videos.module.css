@@ -71,12 +71,10 @@
 .btn:hover {
   background-color: rgb(138, 196, 215);
   opacity: 0.8;
-  border: ;
 }
 
 @media screen and (max-width: 1000px) {
   .vidContainer {
-    width: ;
     gap: 1.5rem;
   }
 

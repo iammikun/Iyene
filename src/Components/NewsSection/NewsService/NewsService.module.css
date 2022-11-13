@@ -101,4 +101,12 @@
   .serviceContainer {
     width: 95%;
   }
+
+  .serviceImg {
+    width: 95%;
+  }
+
+  .serviceImg img {
+    width: 100%;
+  }
 }
