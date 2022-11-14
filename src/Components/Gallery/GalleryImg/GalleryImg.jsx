@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-// import { baseUrl } from "./config";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import classes from "./GalleryImg.module.css";
@@ -15,20 +14,20 @@ import imageTwo from "../../../Asset/Image/imageTwo.JPG";
 import imageRep from "../../../Asset/Image/imageRep.JPG";
 import courseOne from "../../../Asset/Image/courseOne.jpg";
 
-export default class LazyLoad extends Component {
+export default class AutoPlay extends Component {
   render() {
     const settings = {
       dots: true,
-      lazyLoad: true,
       infinite: true,
-      speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      initialSlide: 2,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
+      cssEase: "linear",
     };
     return (
       <div className={classes.main}>
-        {/* <h2> Lazy Load</h2> */}
         <Slider {...settings} className={classes.slider}>
           <div className={classes.mover}>
             <img src={emerging} alt="" />

@@ -83,6 +83,20 @@
     transition: all 0.5s ease-in-out;
   }
 
+  .navComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+  }
+
+  .offCourse {
+    margin-top: 2rem;
+  }
+
   .links a {
     text-decoration: none;
     color: #fff;
@@ -109,6 +123,8 @@
     /* margin-left: 8px;   */
     margin-bottom: -3px;
     align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
   }
 
   .arrow:hover {
@@ -131,7 +147,7 @@
     opacity: 0.6;
   }
 
-  .hover {
+  /* .hover {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 1rem;
@@ -140,6 +156,12 @@
     height: 0;
     overflow: hidden;
     z-index: 1000;
+  } */
+
+  .hover {
+    height: 0;
+    overflow: hidden;
+    padding-top: 0.25em;
   }
 
   .hover:hover {
@@ -148,10 +170,46 @@
     flex-direction: column;
     margin-top: 2px;
     background-color: lightblue;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5rem;
+    border-radius: 3px;
   }
 
   .hover a {
     margin-top: 0.88rem;
     color: #000;
+  }
+
+  .onCourse > span,
+  .offCourse > span {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .onCourse > span:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .onCourse .wide .arrow {
+    transform: rotate(180deg);
+  }
+
+  .onOffCourse .wide .arrow {
+    transform: rotate(180deg);
+  }
+
+  .onCourse .wide .hover {
+    height: auto;
+  }
+
+  .offCourse .wide .hover {
+    height: auto;
   }
 }
