@@ -12,8 +12,8 @@ const Nav = () => {
     <div className={classes.main}>
       <div className={classes.navLink}>
         <Link to="/" className={classes.logo}>
-          <img src={logoDark} alt="" />
-          {/* <h1>I E</h1> */}
+          {/* <img src={logoDark} alt="" /> */}
+          <h1>Iyene Essien</h1>
         </Link>
         <nav className={classes.links}>
           <Link to="biography">

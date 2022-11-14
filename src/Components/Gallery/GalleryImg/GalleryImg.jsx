@@ -1,5 +1,14 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import classes from "./GalleryImg.module.css";
+import factsImage from "../../../Asset/Image/FactsImg.JPG";
+import emerging from "../../../Asset/Image/emerging.JPG";
+import life from "../../../Asset/Image/life.jpeg";
+import Nigeria from "../../../Asset/Image/Nigeria.JPG";
+import courseOne from "../../../Asset/Image/courseOne.jpg";
+import offHero from "../../../Asset/Image/offHero.jpg";
 
 export default class AutoPlay extends Component {
   render() {
@@ -14,26 +23,26 @@ export default class AutoPlay extends Component {
       cssEase: "linear",
     };
     return (
-      <div>
-        <h2>Auto Play</h2>
-        <Slider {...settings}>
-          <div>
-            <h3>1</h3>
+      <div className={classes.main}>
+        {/* <h2>Auto Play</h2> */}
+        <Slider {...settings} className={classes.slider}>
+          <div className={classes.mover}>
+            <img src={factsImage} alt="" />
           </div>
-          <div>
-            <h3>2</h3>
+          <div className={classes.mover}>
+            <img src={emerging} alt="" />
           </div>
-          <div>
-            <h3>3</h3>
+          <div className={classes.mover}>
+            <img src={life} alt="" />
           </div>
-          <div>
-            <h3>4</h3>
+          <div className={classes.mover}>
+            <img src={Nigeria} alt="" />
           </div>
-          <div>
-            <h3>5</h3>
+          <div className={classes.mover}>
+            <img src={courseOne} alt="" />
           </div>
-          <div>
-            <h3>6</h3>
+          <div className={classes.mover}>
+            <img src={offHero} alt="" />
           </div>
         </Slider>
       </div>

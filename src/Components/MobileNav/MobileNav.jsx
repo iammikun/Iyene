@@ -32,8 +32,8 @@ const MobileNav = () => {
       <div className={classes.mobileNavContainer}>
         <div className={classes.mobileView}>
           <Link to="/" className={classes.logo}>
-            {/* <h1>I E</h1> */}
-            <img src={logoDark} alt="" />
+            <h1>Iyene Essien</h1>
+            {/* <img src={logoDark} alt="" /> */}
           </Link>
         </div>
       </div>

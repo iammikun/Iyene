@@ -134,6 +134,31 @@ const Videos = () => {
             </div>
           </div>
           <div className={classes.swingPee}>
+            <p> Driver - Full swing - 194 Yards - Fv views</p>
+          </div>
+          <div className={classes.vidContainerTwo}>
+            <div className={classes.vidContent}>
+              <iframe
+                src="https://www.youtube.com/embed/FCM3ByYJn-E"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Fv View 1</p>
+            </div>
+            <div className={classes.vidContent}>
+              <iframe
+                src="https://www.youtube.com/embed/FkiNu4fuJBI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Fv View 2</p>
+            </div>
+          </div>
+          <div className={classes.swingPee}>
             <p> Driver - Full swing - 184 Yards - Fv & DTL view</p>
           </div>
           <div className={classes.vidContainerTwo}>
@@ -233,6 +258,80 @@ const Videos = () => {
                 allowfullscreen
               ></iframe>
               <p>Fv View</p>
+            </div>
+          </div>
+          <div className={classes.swingPee}>
+            <p> Driver - Full swing - 134 Yards - DTL & Fv view</p>
+          </div>
+          <div className={classes.vidContainerTwo}>
+            <div className={classes.vidContent}>
+              <iframe
+                src="https://www.youtube.com/embed/otO98lnw-gw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>DTL View 1</p>
+            </div>
+            <div className={classes.vidContent}>
+              <iframe
+                src="https://www.youtube.com/embed/0cw-RrCLk38"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>DTL View 2</p>
+            </div>
+          </div>
+          <div className={classes.vidContainerTwo}>
+            <div className={classes.veedContent}>
+              <iframe
+                src="https://www.youtube.com/embed/dc_cI6cHoCI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Fv View</p>
+            </div>
+          </div>
+          <div className={classes.swingPee}>
+            <p> DTL & Fv Chipping</p>
+          </div>
+          <div className={classes.vidContainerTwo}>
+            <div className={classes.veedContent}>
+              <iframe
+                src="https://www.youtube.com/embed/csUMle1k9Fc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>DTL Chipping</p>
+            </div>
+          </div>
+          <div className={classes.vidContainerTwo}>
+            <div className={classes.vidContent}>
+              <iframe
+                src="https://www.youtube.com/embed/CHFevur7RHU"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Fv View 1</p>
+            </div>
+            <div className={classes.vidContent}>
+              <iframe
+                src="https://www.youtube.com/embed/24Hcn7yCSzc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Fv View 2</p>
             </div>
           </div>
         </>
