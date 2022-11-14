@@ -128,8 +128,25 @@
   }
 }
 
-@media screena and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .swingPee {
     font-size: 1rem;
+  }
+
+  .vidContent {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .vidContent iframe {
+    width: 100%;
+  }
+
+  .vidContainer,
+  .vidContainerTwo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
   }
 }

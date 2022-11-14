@@ -15,15 +15,6 @@ const NavCompo = () => {
             <Link to="gallery">gallery</Link>
             <Link to="schedule">Schedule</Link>
           </div>
-          {/* <div className={classes.onCourse}>
-            <span>
-              ON COURSE <AiOutlineDown className={classes.arrow} />
-            </span>
-            <div className={classes.hover}>
-              <Link to="gallery">gallery</Link>
-              <Link to="schedule">Schedule</Link>
-            </div>
-          </div> */}
         </div>
         <div className={classes.offCourse}>
           <span>
@@ -36,18 +27,6 @@ const NavCompo = () => {
             <Link to="school-records">Academics</Link>
             <Link to="awards">Awards</Link>
           </div>
-          {/* <div className={classes.wide}>
-            <span>
-              OFF COURSE <AiOutlineDown className={classes.arrow} />
-            </span>
-            <div className={classes.hover}>
-              <Link to="news">News</Link>
-              <Link to="interview">Interviews</Link>
-              <Link to="community-service">Community services</Link>
-              <Link to="school-records">Academics</Link>
-              <Link to="awards">Awards</Link>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
