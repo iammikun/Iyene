@@ -126,13 +126,24 @@
   color: black;
 }
 
+@media screen and (max-width: 1024px) {
+  .navLink {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .links {
+    gap: 1rem;
+  }
+}
+
 @media screen and (max-width: 976px) {
   .links {
     gap: 2rem;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 942px) {
   .links {
     display: none;
   }

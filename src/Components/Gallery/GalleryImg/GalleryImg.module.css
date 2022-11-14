@@ -8,18 +8,37 @@
   width: 100%;
   margin: 0 auto;
   align-items: center;
-  margin-top: 10rem;
+  margin-top: 7rem;
 }
 
-.mover {
-  width: 30%;
+.slider .mover {
+  width: 15%;
   margin: 0 auto;
+  height: 120vh;
+
   /* height: 600px; */
   align-items: center;
 }
 
-.mover img {
+.slider .mover > img {
   width: 100%;
+}
+
+.mover6 {
+  width: 10%;
+  height: 100%;
+}
+
+.mover6 > img {
+  width: 100%;
+}
+
+@media screen and (max-width: 942px) {
+  .slider {
+    margin-top: 10rem;
+    z-index: -1;
+    align-items: center;
+  }
 }
 
 /* const settings = {

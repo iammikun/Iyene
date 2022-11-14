@@ -29,8 +29,8 @@ const ContactSection = () => {
           <div className={classes.line}></div>
           <div className={classes.pee}>
             <h4> Eyo Essien (He/his)</h4>
-            <p>+234-708-714-7241</p>
-            <p>+234-811-810-1579</p>
+            <p>0708-714-7241</p>
+            {/* <p>+234-811-810-1579</p> */}
           </div>
           <div className={classes.pee}>
             <h4>Imeh Okon (She/her)</h4>
