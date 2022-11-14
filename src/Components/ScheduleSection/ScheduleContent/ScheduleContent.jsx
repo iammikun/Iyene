@@ -26,7 +26,7 @@ const ScheduleContent = () => {
         </div>
       </div>
       <Link to="">
-        <button>DOWNLOAD SCHEDULE</button>
+        <button className={classes.button}>DOWNLOAD SCHEDULE</button>
       </Link>
     </div>
   );

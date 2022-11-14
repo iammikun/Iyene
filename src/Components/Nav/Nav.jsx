@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Nav.module.css";
-import logoDark from "../../Asset/Image/Logo.png";
+import logoDark from "../../Asset/Image/logoDark.jpeg";
 import { AiOutlineDown } from "react-icons/ai";
 
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,11 +9,11 @@ import { AiOutlineDown } from "react-icons/ai";
 
 const Nav = () => {
   return (
-    <div className={classes.main} id="header">
+    <div className={classes.main}>
       <div className={classes.navLink}>
         <Link to="/" className={classes.logo}>
-          {/* <img src={logoDark} alt="" /> */}
-          <h1>I E</h1>
+          <img src={logoDark} alt="" />
+          {/* <h1>I E</h1> */}
         </Link>
         <nav className={classes.links}>
           <Link to="biography">

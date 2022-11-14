@@ -24,6 +24,18 @@
   color: lightblue;
 }
 
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo img {
+  width: 40%;
+  border-radius: 25px;
+}
+
 @media screen and (max-width: 768px) {
   .main {
     display: block;
@@ -55,7 +67,7 @@
     padding-bottom: 2rem;
     padding-top: 2rem;
     width: 100%;
-    margin-top: 0rem;
+    margin-top: -1rem;
     transition: all 0.5s ease-in-out;
   }
 
@@ -77,27 +89,13 @@
   .links p {
     color: #fff;
     font-family: "Montserrat", sans-serif;
-    font-size: 0.92rem;
-    text-transform: uppercase;
     align-items: center;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .onCourse li,
-  .offCourse li {
-    cursor: pointer;
-    align-items: center;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .offCourse li:hover,
-  .onCourse li:hover {
-    opacity: 0.6;
-    transition: all 0.5s ease-in-out;
+    text-align: center;
   }
 
   .arrow {
-    margin-left: 8px;
+    /* margin-left: 8px;   */
+    margin-bottom: -3px;
     align-items: center;
   }
 
@@ -108,34 +106,38 @@
   .hover {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    padding: 1rem 0.3rem;
-    line-height: 1.8rem;
-    width: 45%;
-    top: 100%;
-    border-bottom: none;
-    text-transform: capitalize;
-    opacity: 0;
-    color: black;
-    margin-top: 1.9rem;
+    align-items: center;
+    /* margin-top: 1rem; */
+  }
+
+  .links .onCourse li {
+    align-items: center;
     transition: all 0.5s ease-in-out;
   }
 
-  .onCourse:hover .hover {
-    opacity: 1;
-    background: lightblue;
-    padding: 1rem;
-    width: 27%;
+  .links .onCourse li:hover {
+    opacity: 0.6;
   }
 
-  .offCourse:hover .hover {
-    opacity: 1;
-    background: lightblue;
-    padding: 1rem;
-    width: 40%;
+  .hover {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    margin-top: -20px;
+    transition: all 0.5s ease-in-out;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .hover:hover {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    background-color: rgb(46, 45, 45);
   }
 
   .hover a {
-    color: black;
+    margin-top: 1rem;
   }
 }

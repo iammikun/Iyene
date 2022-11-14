@@ -62,7 +62,7 @@
   width: 100%;
 }
 
-button {
+.button {
   background-color: lightblue;
   color: black;
   font-family: "Montserrat", sans-serif;
@@ -77,4 +77,25 @@ button {
   font-weight: bold;
   letter-spacing: 2px;
   font-size: 1rem;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .tableContainer {
+    width: 90%;
+  }
+
+  .button {
+    width: 50%;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-size: 0.899rem;
+    padding: 0.8rem 0.8rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .button {
+    width: 60%;
+  }
 }

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import classes from "./MobileNav.module.css";
+import logoDark from "../../Asset/Image/logoDark.jpeg";
 import { AiOutlineDown } from "react-icons/ai";
 import { CgMenuLeft } from "react-icons/cg";
 import { CgClose } from "react-icons/cg";
@@ -31,7 +32,8 @@ const MobileNav = () => {
       <div className={classes.mobileNavContainer}>
         <div className={classes.mobileView}>
           <Link to="/" className={classes.logo}>
-            <h1>I E</h1>
+            {/* <h1>I E</h1> */}
+            <img src={logoDark} alt="" />
           </Link>
         </div>
       </div>
@@ -46,7 +48,7 @@ const MobileNav = () => {
           </Link>
           <p className={classes.onCourse}>
             <li>
-              On Course <AiOutlineDown className={classes.arrow} />
+              ON COURSE <AiOutlineDown className={classes.arrow} />
             </li>
             <div className={classes.hover}>
               <Link to="gallery">gallery</Link>
@@ -55,7 +57,7 @@ const MobileNav = () => {
           </p>
           <p className={classes.offCourse}>
             <li>
-              Off Course <AiOutlineDown className={classes.arrow} />
+              OFF COURSE <AiOutlineDown className={classes.arrow} />
             </li>
             <div className={classes.hover}>
               <Link to="news">News</Link>

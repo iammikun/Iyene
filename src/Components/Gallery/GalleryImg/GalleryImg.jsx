@@ -1,37 +1,42 @@
-import React from "react";
-import classes from "./GalleryImg.module.css";
+import React, { Component } from "react";
+import Slider from "react-slick";
 
-const GalleryImg = () => {
-  return (
-    <div className={classes.main}>
-      <div className={classes.gallery}>
-        <div className={classes.first}>
-          <p>Img</p>
-          <p>img</p>
-        </div>
-        <div className={classes.first}>
-          <p>Img</p>
-          <p className={classes.mix}>img</p>
-        </div>
-        <div className={classes.first}>
-          <p className={classes.mixed}>Img</p>
-          <p className={classes.special}>img</p>
-        </div>
-        <div className={classes.first}>
-          <p>Img</p>
-          <p>img</p>
-        </div>
-        <div className={classes.first}>
-          <p className={classes.mix}>img</p>
-          <p className={classes.mixed}>Img</p>
-        </div>
-        <div className={classes.first}>
-          <p className={classes.mixed}>Img</p>
-          <p className={classes.special}>img</p>
-        </div>
+export default class AutoPlay extends Component {
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
+      cssEase: "linear",
+    };
+    return (
+      <div>
+        <h2>Auto Play</h2>
+        <Slider {...settings}>
+          <div>
+            <h3>1</h3>
+          </div>
+          <div>
+            <h3>2</h3>
+          </div>
+          <div>
+            <h3>3</h3>
+          </div>
+          <div>
+            <h3>4</h3>
+          </div>
+          <div>
+            <h3>5</h3>
+          </div>
+          <div>
+            <h3>6</h3>
+          </div>
+        </Slider>
       </div>
-    </div>
-  );
-};
-
-export default GalleryImg;
+    );
+  }
+}
