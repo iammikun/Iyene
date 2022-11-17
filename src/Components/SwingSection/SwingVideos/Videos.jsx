@@ -69,7 +69,7 @@ const Videos = () => {
       {show ? (
         <>
           <div className={classes.swingPee}>
-            <p> Driver - Full swing - 234 Yards - Fv view</p>
+            <p> 3W - Full swing - 234 Yards - Fv view</p>
           </div>
           <div className={classes.vidContainerTwo}>
             <div className={classes.veedContent}>
@@ -84,7 +84,7 @@ const Videos = () => {
             </div>
           </div>
           <div className={classes.swingPee}>
-            <p> Driver - Full swing - 234 Yards - DTL view</p>
+            <p> 3W - Full swing - 234 Yards - DTL view</p>
           </div>
           <div className={classes.vidContainerTwo}>
             <div className={classes.vidContent}>
@@ -109,7 +109,7 @@ const Videos = () => {
             </div>
           </div>
           <div className={classes.swingPee}>
-            <p> Driver - Full swing - 224 Yards - Fv view</p>
+            <p> 3H - Full swing - 224 Yards - Fv view</p>
           </div>
           <div className={classes.vidContainerTwo}>
             <div className={classes.vidContent}>
@@ -134,7 +134,7 @@ const Videos = () => {
             </div>
           </div>
           <div className={classes.swingPee}>
-            <p> Driver - Full swing - 194 Yards - Fv views</p>
+            <p> 5i- Full swing - 194 Yards - Fv views</p>
           </div>
           <div className={classes.vidContainerTwo}>
             <div className={classes.vidContent}>
@@ -159,7 +159,7 @@ const Videos = () => {
             </div>
           </div>
           <div className={classes.swingPee}>
-            <p> Driver - Full swing - 184 Yards - Fv & DTL view</p>
+            <p> 6i - Full swing - 184 Yards - Fv & DTL view</p>
           </div>
           <div className={classes.vidContainerTwo}>
             <div className={classes.vidContent}>
@@ -184,7 +184,7 @@ const Videos = () => {
             </div>
           </div>
           <div className={classes.swingPee}>
-            <p> Driver - Full swing - 164 Yards - DTL(soft) & Fv view</p>
+            <p> 7i - Full swing - 164 Yards - DTL(soft) & Fv view</p>
           </div>
           <div className={classes.vidContainerTwo}>
             <div className={classes.vidContent}>
@@ -209,7 +209,7 @@ const Videos = () => {
             </div>
           </div>
           <div className={classes.swingPee}>
-            <p> Driver - Full swing - 154 Yards - view</p>
+            <p> 9i - Full swing - 154 Yards - view</p>
           </div>
           <div className={classes.vidContainerTwo}>
             <div className={classes.veedContent}>
@@ -224,7 +224,7 @@ const Videos = () => {
             </div>
           </div>
           <div className={classes.swingPee}>
-            <p> Driver - Full swing - 144 Yards DTL & Fv View</p>
+            <p> PW - Full swing - 144 Yards DTL & Fv View</p>
           </div>
           <div className={classes.vidContainerTwo}>
             <div className={classes.veedContent}>
@@ -261,7 +261,7 @@ const Videos = () => {
             </div>
           </div>
           <div className={classes.swingPee}>
-            <p> Driver - Full swing - 134 Yards - DTL & Fv view</p>
+            <p> 52 degrees Full swing - 134 Yards - DTL & Fv view</p>
           </div>
           <div className={classes.vidContainerTwo}>
             <div className={classes.vidContent}>
@@ -298,7 +298,7 @@ const Videos = () => {
             </div>
           </div>
           <div className={classes.swingPee}>
-            <p> DTL & Fv Chipping</p>
+            <p>LW Chipping DTL & Fv </p>
           </div>
           <div className={classes.vidContainerTwo}>
             <div className={classes.veedContent}>

@@ -1,22 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import { AiOutlineDown } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import classes from "./MobileNav.module.css";
 
 const NavCompo = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div className={classes.main}>
       <div className={classes.navComponent}>
-        <div className={classes.onCourse}>
+        <div className={`open ? ${classes.open} : ${classes.onCourse}`}>
           <span>
-            ON COURSE <AiOutlineDown className={classes.arrow} />
+            ON COURSE{" "}
+            <AiOutlineDown
+              className={classes.arrow}
+              onClick={() => setOpen(!open)}
+            />
           </span>
           <div className={classes.hover}>
             <Link to="gallery">gallery</Link>
             <Link to="schedule">Schedule</Link>
           </div>
         </div>
-        <div className={classes.offCourse}>
+        <div className={`${classes.offCourse} ${classes.open}`}>
           <span>
             OFF COURSE <AiOutlineDown className={classes.arrow} />
           </span>

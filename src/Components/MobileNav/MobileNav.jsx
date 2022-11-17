@@ -39,6 +39,9 @@ const MobileNav = () => {
       {open ? closeIcon : hamburgerIcon}
       {open && (
         <nav className={classes.links}>
+          <Link to="/">
+            <li>Home</li>
+          </Link>
           <Link to="biography">
             <li>Biography</li>
           </Link>
