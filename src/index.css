@@ -7,3 +7,56 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+/* .sidebar-item {
+  padding: 0.4em;
+  display: block;
+  border-bottom: 1px solid rgb(60, 59, 59);
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  transition: background-color 0.15s;
+}
+
+.sidebar-item:hover {
+  background-color: rgb(88, 88, 88);
+}
+
+.sidebar-title > span {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-title i {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.sidebar-title .toggle-btn {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.sidebar-item .open .sidebar-title .toggle-btn {
+  transform: rotate(180deg);
+}
+
+.sidebar-content {
+  background-color: lightblue;
+  width: 200px;
+  margin: 0 auto;
+  height: 0;
+  overflow: hidden;
+}
+
+.sidebar-item .open .sidebar-content {
+  height: auto;
+}
+
+.sidebar-content a {
+  color: #000;
+} */

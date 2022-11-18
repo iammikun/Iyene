@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Nav.module.css";
-import logoDark from "../../Asset/Image/logoDark.jpeg";
+import logo from "../../Asset/Image/Logo design.pdf";
 import { AiOutlineDown } from "react-icons/ai";
 
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,7 +12,7 @@ const Nav = () => {
     <div className={classes.main}>
       <div className={classes.navLink}>
         <Link to="/" className={classes.logo}>
-          {/* <img src={logoDark} alt="" /> */}
+          {/* <img src={logo} alt="" /> */}
           <h1>Iyene Essien</h1>
         </Link>
         <nav className={classes.links}>

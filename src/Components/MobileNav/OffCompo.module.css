@@ -1,0 +1,90 @@
+.main {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 942px) {
+  .offComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .offCourse {
+    margin: 0 auto;
+  }
+
+  .offCourse span {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+
+  .arrow {
+    margin-bottom: -0.1rem;
+    color: #fff;
+  }
+
+  .offCourse .arrow {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+  }
+
+  .open .arrow {
+    transform: rotate(180deg);
+  }
+
+  .hover {
+    height: 0;
+    overflow: hidden;
+  }
+
+  .open .hover {
+    height: auto;
+    background-color: lightblue;
+    color: #000;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    /* margin-top: 0.2rem; */
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    border-radius: 3px;
+    /* margin-bottom: 1rem; */
+  }
+
+  .open .hover a {
+    color: #000;
+    margin: 0.3rem 0;
+    width: 100%;
+    margin: 0.5rem 0;
+    width: 100%;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+  }
+
+  .open .hover a:hover {
+    background-color: rgb(140, 156, 161);
+  }
+
+  .open span {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .offCourse .open {
+    margin-top: 4rem;
+  }
+}
+/* 
+@media screen and (max-width: 425px) {
+  .main {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+} */

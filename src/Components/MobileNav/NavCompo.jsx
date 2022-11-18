@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineDown } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import classes from "./MobileNav.module.css";
+import OffCompo from "../MobileNav/OffCompo";
 
 const NavCompo = () => {
   const [open, setOpen] = useState(false);
@@ -9,7 +10,7 @@ const NavCompo = () => {
   return (
     <div className={classes.main}>
       <div className={classes.navComponent}>
-        <div className={`open ? ${classes.open} : ${classes.onCourse}`}>
+        <div className={open ? classes.open : classes.onCourse}>
           <span>
             ON COURSE{" "}
             <AiOutlineDown
@@ -22,18 +23,7 @@ const NavCompo = () => {
             <Link to="schedule">Schedule</Link>
           </div>
         </div>
-        <div className={`${classes.offCourse} ${classes.open}`}>
-          <span>
-            OFF COURSE <AiOutlineDown className={classes.arrow} />
-          </span>
-          <div className={classes.hover}>
-            <Link to="news">News</Link>
-            <Link to="interview">Interviews</Link>
-            <Link to="community-service">Community services</Link>
-            <Link to="school-records">Academics</Link>
-            <Link to="awards">Awards</Link>
-          </div>
-        </div>
+        <OffCompo />
       </div>
     </div>
   );

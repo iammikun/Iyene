@@ -77,24 +77,20 @@
     background-color: black;
     /* padding: 4rem 3rem; */
     padding-bottom: 2.7rem;
-    padding-top: 2rem;
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 2rem;
     transition: all 0.5s ease-in-out;
   }
 
-  .navComponent {
+  .navComponent,
+  .offComponent {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     width: 100%;
-    margin-top: -1rem;
-    margin-bottom: -1rem;
-  }
-
-  .offCourse {
-    margin-top: 2.4rem;
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
   }
 
   .links a {
@@ -108,16 +104,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border-bottom: 1px solid rgb(60, 59, 59); */
+    width: 100%;
+    /* padding: 0.1em; */
+    display: block;
+    align-items: center;
+    text-align: center;
     /* padding: 1rem 0; */
   }
 
-  .offCourse span,
+  .links a:hover {
+    background-color: rgb(88, 88, 88);
+  }
+
   .onCourse span {
     color: #fff;
     font-family: "Montserrat", sans-serif;
     align-items: center;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
+    margin-top: 2rem;
   }
 
   .hover {
@@ -126,12 +132,14 @@
 
   .arrow {
     margin-bottom: -0.1rem;
+    color: #fff;
   }
 
   .onCourse .arrow,
-  .onOffCourse .arrow {
+  .offCourse .arrow {
     cursor: pointer;
     transition: all 0.5s ease-in-out;
+    color: #fff;
   }
 
   .open .arrow {
@@ -148,10 +156,11 @@
     background-color: lightblue;
     color: #000;
     padding: 0.2rem 2rem 0.2rem 2rem;
-    margin-top: 0.2rem;
+    /* margin-top: 0.2rem; */
     transition: all 0.5s ease-in-out;
     width: 100%;
     border-radius: 3px;
+    /* margin-bottom: 1rem; */
   }
 
   .open .hover a {
@@ -166,6 +175,15 @@
   .open .hover a:hover {
     background-color: rgb(140, 156, 161);
   }
+
+  .open span {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .onCourse .open {
+    margin-bottom: 3rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -174,3 +192,27 @@
     padding-bottom: 0.5rem;
   }
 }
+
+/* <div className="offCourse">
+          <span>
+            OFF COURSE <AiOutlineDown className="arrow" />
+          </span>
+          <div className="hover">
+            <Link to="news">News</Link>
+            <Link to="interview">Interviews</Link>
+            <Link to="community-service">Community services</Link>
+            <Link to="school-records">Academics</Link>
+            <Link to="awards">Awards</Link>
+          </div>
+        </div> */
+
+/* 
+          <div className="onCourse">
+          <span>
+            ON COURSE{" "}
+            <AiOutlineDown className="arrow" onClick={() => setOpen(!open)} />
+          </span>
+          <div className="hover">
+            
+          </div>
+        </div> */

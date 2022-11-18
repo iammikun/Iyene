@@ -25,3 +25,16 @@
 .main a:hover {
   background-color: rgb(136, 180, 194);
 }
+
+.main .peee {
+  color: rgb(195, 184, 184);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  letter-spacing: 2px;
+  margin-top: 7rem;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+}
