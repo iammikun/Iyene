@@ -6,6 +6,10 @@ import classes from "./OffCompo.module.css";
 const OffCompo = () => {
   const [open, setOpen] = useState(false);
 
+  const closeMenu = () => {
+    setOpen(false);
+  };
+
   return (
     <div className={classes.main}>
       <div className={classes.offComponent}>
@@ -18,11 +22,21 @@ const OffCompo = () => {
             />
           </span>
           <div className={classes.hover}>
-            <Link to="news">News</Link>
-            <Link to="interview">Interviews</Link>
-            <Link to="community-service">Community services</Link>
-            <Link to="school-records">Academics</Link>
-            <Link to="awards">Awards</Link>
+            <Link to="news" onClick={closeMenu}>
+              News
+            </Link>
+            <Link to="interview" onClick={closeMenu}>
+              Interviews
+            </Link>
+            <Link to="community-service" onClick={closeMenu}>
+              Community services
+            </Link>
+            <Link to="school-records" onclick={closeMenu}>
+              Academics
+            </Link>
+            <Link to="awards" onClick={closeMenu}>
+              Awards
+            </Link>
           </div>
         </div>
       </div>

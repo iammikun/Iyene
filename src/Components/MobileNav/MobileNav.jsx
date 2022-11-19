@@ -26,11 +26,15 @@ const MobileNav = () => {
     />
   );
 
+  const closeMenu = () => {
+    setOpen(false);
+  };
+
   return (
     <div className={classes.main}>
       <div className={classes.mobileNavContainer}>
         <div className={classes.mobileView}>
-          <Link to="/" className={classes.logo}>
+          <Link to="/" className={classes.logo} onClick={closeMenu}>
             <h1>Iyene Essien</h1>
             {/* <img src={logoDark} alt="" /> */}
           </Link>
@@ -39,17 +43,17 @@ const MobileNav = () => {
       {open ? closeIcon : hamburgerIcon}
       {open && (
         <nav className={classes.links}>
-          <Link to="/">
+          <Link to="/" onClick={closeMenu}>
             <li>Home</li>
           </Link>
-          <Link to="biography">
+          <Link to="biography" onClick={closeMenu}>
             <li>Biography</li>
           </Link>
-          <Link to="swing">
+          <Link to="swing" onClick={closeMenu}>
             <li>Swing Videos</li>
           </Link>
           <NavCompo />
-          <Link to="contact">
+          <Link to="contact" onClick={closeMenu}>
             <li>Contact</li>
           </Link>
         </nav>

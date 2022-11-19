@@ -24,8 +24,8 @@ const ScheduleContent = () => {
           <p>July 14 - 17, 2022</p>
         </div>
       </div>
-      <a href="file:///C:/Users/HP/Downloads/Schedule.pdf">
-        <button className={classes.button}>DOWNLOAD SCHEDULE</button>
+      <a href="download" className={classes.button}>
+        DOWNLOAD SCHEDULE
       </a>
     </div>
   );

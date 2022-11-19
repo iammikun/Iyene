@@ -27,6 +27,7 @@
   /* padding: 1rem; */
   width: 50%;
   margin: 0 auto;
+  margin-bottom: 3rem;
 }
 
 .tableContent {
@@ -60,6 +61,7 @@
   text-align: center;
   margin: 0 auto;
   width: 100%;
+  text-decoration: none;
 }
 
 .button {

@@ -7,6 +7,10 @@ import OffCompo from "../MobileNav/OffCompo";
 const NavCompo = () => {
   const [open, setOpen] = useState(false);
 
+  const closeMenu = () => {
+    setOpen(false);
+  };
+
   return (
     <div className={classes.main}>
       <div className={classes.navComponent}>
@@ -19,8 +23,12 @@ const NavCompo = () => {
             />
           </span>
           <div className={classes.hover}>
-            <Link to="gallery">gallery</Link>
-            <Link to="schedule">Schedule</Link>
+            <Link to="gallery" onClick={closeMenu}>
+              gallery
+            </Link>
+            <Link to="schedule" onClick={closeMenu}>
+              Schedule
+            </Link>
           </div>
         </div>
         <OffCompo />

@@ -38,3 +38,21 @@
   margin: 0 auto;
   margin-bottom: 8rem;
 }
+
+@media screen and (max-width: 768px) {
+  .main .peee {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .AcademicsHero p {
+    margin-bottom: 6rem;
+  }
+  .main .peee {
+    width: 95%;
+    font-size: 1rem;
+    margin-bottom: 5rem;
+  }
+}
