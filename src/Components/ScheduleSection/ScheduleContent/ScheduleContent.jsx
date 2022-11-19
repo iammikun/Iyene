@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import classes from "./Schedule.module.css";
 
 const ScheduleContent = () => {
@@ -25,9 +24,9 @@ const ScheduleContent = () => {
           <p>July 14 - 17, 2022</p>
         </div>
       </div>
-      <Link to="">
+      <a href="file:///C:/Users/HP/Downloads/Schedule.pdf">
         <button className={classes.button}>DOWNLOAD SCHEDULE</button>
-      </Link>
+      </a>
     </div>
   );
 };
