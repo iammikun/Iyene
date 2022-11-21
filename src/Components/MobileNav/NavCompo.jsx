@@ -1,15 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineDown } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import classes from "./MobileNav.module.css";
 import OffCompo from "../MobileNav/OffCompo";
 
 const NavCompo = () => {
   const [open, setOpen] = useState(false);
 
-  const closeMenu = () => {
+  const location = useLocation();
+
+  useEffect(() => {
     setOpen(false);
-  };
+  }, [location.pathname]);
 
   return (
     <div className={classes.main}>
@@ -23,12 +25,8 @@ const NavCompo = () => {
             />
           </span>
           <div className={classes.hover}>
-            <Link to="gallery" onClick={closeMenu}>
-              gallery
-            </Link>
-            <Link to="schedule" onClick={closeMenu}>
-              Schedule
-            </Link>
+            <Link to="gallery">gallery</Link>
+            <Link to="schedule">Schedule</Link>
           </div>
         </div>
         <OffCompo />

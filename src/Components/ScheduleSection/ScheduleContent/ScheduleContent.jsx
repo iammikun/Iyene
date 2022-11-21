@@ -24,7 +24,10 @@ const ScheduleContent = () => {
           <p>July 14 - 17, 2022</p>
         </div>
       </div>
-      <a href="download" className={classes.button}>
+      <a
+        href="https://drive.google.com/file/d/1nRZFNdAdmTT531YFfsWlpZRv9e4v-p-d/view?usp=drivesdk"
+        className={classes.button}
+      >
         DOWNLOAD SCHEDULE
       </a>
     </div>
