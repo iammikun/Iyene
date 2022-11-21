@@ -5,7 +5,10 @@ const NewsHero = () => {
   return (
     <div className={classes.main}>
       <div className={classes.container}>
-        <p>COMMUNITY SERVICE</p>
+        <h2>COMMUNITY SERVICE</h2>
+        <p>
+          Iyene's passion has always been focused on giving back to the society.
+        </p>
       </div>
     </div>
   );
