@@ -42,7 +42,6 @@ const NewsService = () => {
         <div className={classes.serviceImg}>
           <img src={malala} alt="" />
         </div>
-
         <div className={classes.serviceContainerTwo}>
           <h2>Malala Foundation</h2>
           <p>
@@ -54,9 +53,9 @@ const NewsService = () => {
           </p>
           <p>
             I was one of the three golfers selected in the world to feature in
-            the series and featured in the campaign:
+            the series and featured in the campaign:{" "}
             <a href="https://assembly.malala.org/stories/female-golfers-taking-a-swing-at-the-establishment">
-              https://assembly.malala.org/stories/female-golfers-taking-a-swing-at-the-establishment
+              Check Out More Of This
             </a>
           </p>
           <p>

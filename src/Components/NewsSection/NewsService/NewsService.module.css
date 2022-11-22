@@ -79,7 +79,8 @@
 }
 
 @media screen and (max-width: 1330px) {
-  .main {
+  .main,
+  .mainTwo {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -102,13 +103,20 @@
 }
 
 @media screen and (max-width: 768px) {
-  .main {
+  .main,
+  .mainTwo {
     width: 95%;
+  }
+
+  .serviceContainerTwo p,
+  .serviceContainerTwo a {
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .main {
+  .main,
+  .mainTwo {
     width: 100%;
   }
 
@@ -123,5 +131,10 @@
 
   .serviceImg img {
     width: 100%;
+  }
+
+  .serviceContainer p,
+  .serviceContainerTwo p {
+    font-size: 0.938rem;
   }
 }
