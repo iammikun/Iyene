@@ -1,0 +1,94 @@
+.main {
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.main p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  margin-bottom: 5rem;
+}
+
+.awardsContent,
+.awardsContentTwo {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.awardsImgs,
+.awardsImgsTwo {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.awardsImgs p,
+.awardsImgsTwo p {
+  color: #fff;
+  font-size: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.awardsImgs img,
+.awardsImgsTwo img {
+  width: 100%;
+}
+
+.awardsContentTwo {
+  margin-top: 5rem;
+}
+
+.line {
+  width: 80%;
+  height: 0.1px;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+
+@media screen and (max-width: 768px) {
+  .awardsContent,
+  .awardsContentTwo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .awardsImgs,
+  .awardsImgsTwo {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .awardsContent,
+  .awardsContentTwo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .awardsImgs,
+  .awardsImgsTwo {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .awardsContent,
+  .awardsContentTwo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .awardsImgs,
+  .awardsImgsTwo {
+    width: 90%;
+  }
+}

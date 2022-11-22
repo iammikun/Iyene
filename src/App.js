@@ -13,6 +13,7 @@ import Service from './Pages/Service/Service';
 import Interview from './Pages/Interviews/Interview';
 import Academic from "./Pages/Academic/Academics"
 import MobileNav from './Components/MobileNav/MobileNav';
+import Awards from './Pages/Awards/Awards';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route path="community-service" element={<Service />} />
         <Route path="interview" element={<Interview />} />
         <Route path="school-records" element={<Academic />} />
+        <Route path="awards" element={<Awards />} />
       </Routes>
       <Footer />
     </div>
