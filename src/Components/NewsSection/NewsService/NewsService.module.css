@@ -112,6 +112,10 @@
   .serviceContainerTwo a {
     width: 100%;
   }
+
+  .serviceImg {
+    margin-top: 2rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
